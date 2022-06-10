@@ -1,0 +1,34 @@
+class Solution {
+public:
+    bool help(vector<int> v) {
+        int n = v.size();
+        for(int i = 0; i < n-1; i++) {
+            if(v[i] > v[i+1]) return false;
+        }
+        return true;
+    }
+    
+    bool checkPossibility(vector<int>& nums) {
+        vector<int> a = nums;
+        vector<int> b = nums;
+        int n = nums.size();
+        for(int i = 0; i < n-1; i++) {
+            if(nums[i] > nums[i+1]) {
+                if(i==0) {
+                    a[0] = 1;
+                }
+                else {
+                    a[i] = a[i-1];
+                }
+                if(i+1==n-1) {
+                    b[n-1] = 10000;
+                }
+                else {
+                    b[i+1] = b[i+1+1];
+                }
+                return help(a) || help(b);
+            }
+        }
+        return true;
+    }
+};

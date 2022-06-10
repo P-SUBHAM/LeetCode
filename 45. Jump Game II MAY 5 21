@@ -1,0 +1,22 @@
+class Solution {
+public:
+    #define maxv 100000000
+    vector<int> dp;
+    int help(vector<int>& nums, int pos, int n) {
+        if(pos >= n) return maxv;
+        if(dp[pos] != -1) return dp[pos];
+        if(pos==n-1) return dp[pos] = 0;
+        int maxjl = nums[pos];
+        int ans = maxv;
+        for(int i = 1; i <= maxjl; i++) {
+            ans = min(ans,1+help(nums,pos+i,n));
+        }
+        return dp[pos] = ans;
+    }
+    
+    int jump(vector<int>& nums) {
+        int n = nums.size();
+        dp.resize(n,-1);
+        return help(nums,0,n);
+    }
+};

@@ -1,0 +1,21 @@
+class Solution {
+public:
+    vector<vector<int>> mat;
+    vector<vector<int>> dp;
+    int r,c;
+    int help(int i, int j) {
+        if(i >= r || j >= c) return 0;
+        if(dp[i][j] != -1) return dp[i][j];
+        if(mat[i][j] == 1) return dp[i][j] = 0;
+        if(i == r-1 && j == c-1) return dp[i][j] = 1;
+        return dp[i][j] = help(i,j+1) + help(i+1,j);
+    }
+    
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        mat = obstacleGrid;
+        r = mat.size();
+        c = mat[0].size();
+        dp.resize(r,vector<int> (c,-1));
+        return help(0,0);
+    }
+};

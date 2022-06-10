@@ -1,0 +1,26 @@
+map<int,int> leader;
+    map<int,int> size;
+    void makel(int x) {
+        size[x]++;
+        leader[x] = x;
+    }
+    int findl(int x) {
+        if(leader[x] == x) {
+            return x;
+        }
+        return leader[x] = findl(leader[x]);
+    }
+    void unions(int a, int b) {
+        a = findl(a);
+        b = findl(b);
+        if(a!=b) {
+            if(size[a] < size[b]) {
+                leader[a] = b;
+                size[b] += size[a];
+            }
+            else {
+                leader[b] = a;
+                size[a] += size[b];
+            }
+        }
+    }

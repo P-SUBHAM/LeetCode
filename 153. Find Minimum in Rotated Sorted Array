@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int help(vector<int>&nums,int l, int r) {
+        if(l==r || l+1 == r) {
+            return min(nums[l],nums[r]);
+        }
+        if(nums[l] < nums[r]) {
+            return nums[l];
+        }
+        int mid = (l+r)/2;
+        if(nums[mid] < nums[r]) {
+            return help(nums,l,mid);
+        }
+        else {
+            return help(nums,mid+1,r);
+        }
+    }
+    int findMin(vector<int>& nums) {
+        return help(nums,0,nums.size()-1);
+    }
+};

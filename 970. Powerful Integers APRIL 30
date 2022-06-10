@@ -1,0 +1,18 @@
+class Solution {
+public:
+    vector<int> powerfulIntegers(int x, int y, int bound) {
+        set<int> st;
+        vector<int> ans;
+        for(int i = 0; pow(x,i) < bound; i++) {
+            for(int j = 0; pow(x,i) + pow(y,j) <= bound; j++) {
+                st.insert(pow(x,i) + pow(y,j));
+                if(y==1) break;
+            }
+            if(x==1) break;
+        }
+        for(auto it: st) {
+            ans.push_back(it);
+        }
+        return ans;
+    }
+};

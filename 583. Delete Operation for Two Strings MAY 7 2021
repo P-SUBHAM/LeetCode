@@ -1,0 +1,25 @@
+class Solution {
+public:
+    string s1,s2;
+    vector<vector<int>> dp;
+    int lcs(int n1, int n2) {
+        if(dp[n1][n2]!=-1) return dp[n1][n2];
+        if(n1==0 || n2 ==0) {
+            return dp[n1][n2] = 0;
+        }
+        if(s1[n1-1] == s2[n2-1]) {
+            return dp[n1][n2] = ( 1 + lcs(n1-1,n2-1));
+        }
+        else {
+            return dp[n1][n2] = max(lcs(n1-1,n2),lcs(n1,n2-1));
+        }
+    }
+    int minDistance(string word1, string word2) {
+        int n1 = word1.length();
+        int n2 = word2.length();
+        s1 = word1, s2= word2;
+        dp.resize(n1+1,vector<int> (n2+1,-1));
+        int l = lcs(n1,n2);
+        return word1.length()+word2.length() - (2*l);
+    }
+};
