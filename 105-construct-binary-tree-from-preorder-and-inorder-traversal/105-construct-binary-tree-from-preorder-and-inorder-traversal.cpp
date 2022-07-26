@@ -20,16 +20,14 @@ public:
         return -1;
     }
     int idx = 0;
-    int n;
     TreeNode* buildPreIn(vector<int>& preorder, vector<int>& inorder, int l, int r) {
         
         
         if(l > r) {
             return NULL;
         }
-        if(idx == n) {
-            return NULL;
-        }
+        
+        if(idx == preorder.size()) return NULL;
         int curr = preorder[idx];
         idx++;
         TreeNode* root = new TreeNode(curr);
@@ -43,7 +41,6 @@ public:
     }
     
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        n = preorder.size();
-        return buildPreIn(preorder,inorder,0,preorder.size());
+        return buildPreIn(preorder,inorder,0,preorder.size()-1);
     }
 };
