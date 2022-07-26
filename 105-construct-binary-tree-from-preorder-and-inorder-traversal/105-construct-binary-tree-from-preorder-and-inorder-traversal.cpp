@@ -27,7 +27,7 @@ public:
             return NULL;
         }
         
-        if(idx == preorder.size()) return NULL;
+        // if(idx == preorder.size()) return NULL;
         int curr = preorder[idx];
         idx++;
         TreeNode* root = new TreeNode(curr);
