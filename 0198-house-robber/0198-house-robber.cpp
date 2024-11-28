@@ -1,21 +1,13 @@
 class Solution {
 public:
-    map<int,int> dp;
-    int solve(vector<int> &nums, int i, int j) {
-        if(dp.find(i) != dp.end()) {
-            return dp[i];
-        }
-        if(i == j) {
-            return dp[i] = nums[i];
-        }
-        if(i+1==j) {
-            return dp[i] = max(nums[i],nums[j]);
-        }
-        return dp[i] = max(nums[i]+solve(nums,i+2,j),solve(nums,i+1,j));
-    }
     int rob(vector<int>& nums) {
+        vector<int> dp = nums;
         int n = nums.size();
-        dp.clear();
-        return solve(nums,0,n-1);
+        if(n == 1) return nums[0];
+        dp[n-2] = max(dp[n-2],dp[n-1]);
+        for(int i = n - 3; i >= 0; i--) {
+            dp[i] = max(dp[i]+dp[i+2],dp[i+1]);
+        }
+        return dp[0];
     }
 };
