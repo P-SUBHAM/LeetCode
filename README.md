@@ -31,9 +31,14 @@
 ## Hash Table
 |  |
 | ------- |
+| [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 ## Matrix
 |  |
 | ------- |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+## String
+|  |
+| ------- |
+| [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 <!---LeetCode Topics End-->
