@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/P-SUBHAM/LeetCode/tree/master/0046-permutations) |
 | [0198-house-robber](https://github.com/P-SUBHAM/LeetCode/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0624-maximum-distance-in-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
@@ -41,4 +42,8 @@
 |  |
 | ------- |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/P-SUBHAM/LeetCode/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
