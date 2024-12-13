@@ -52,6 +52,7 @@
 ## String
 |  |
 | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 ## Backtracking
 |  |
@@ -61,6 +62,7 @@
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/P-SUBHAM/LeetCode/tree/master/0031-next-permutation) |
+| [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 ## Divide and Conquer
 |  |
 | ------- |
