@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/P-SUBHAM/LeetCode/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0046-permutations](https://github.com/P-SUBHAM/LeetCode/tree/master/0046-permutations) |
@@ -75,6 +76,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/P-SUBHAM/LeetCode/tree/master/0031-next-permutation) |
 | [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 ## Divide and Conquer
@@ -126,6 +128,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
 ## Stack
 |  |
