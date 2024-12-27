@@ -1,26 +1,16 @@
 class Solution {
 public:
-    // can be broken into (v[i] + i) + (v[j] - j)
-    // calc prefixMax from left for v[i] + i, postfixMax from right for v[j] - j
-    // as i < j
+    // Approach 2
+    // Induction i-1 to i
+    // for i-1 which spot gave max contri at i-1, its value for i -> maxv-1(moved 1 index to right) or find i-1's contri at i
+    // max contri at i = either i-1's contri or (max contri at i-1 by someone else)'s contri at i {local contri vs global's contri}
     int maxScoreSightseeingPair(vector<int>& values) {
         int n = values.size();
-        vector<int> prefixmaxi = values;
-        vector<int> postfixmaxj = values;
-        // prefixMax for v[i] + i
+        int maxvalid = values[0];
+        int ans = values[1] + values[0] - 1;
         for(int i = 1; i < n; i++) {
-            prefixmaxi[i] = max(prefixmaxi[i] + i, prefixmaxi[i-1]);
-        }
-        // cout<<"PrefixMax:"; for(auto it: prefixmaxi) {cout<<it<<" ";}; cout<<endl;
-        // postfixmax for v[j] - j
-        postfixmaxj[n-1] -= (n - 1);
-        for(int j = n - 2; j >= 0; j--) {
-            postfixmaxj[j] = max(postfixmaxj[j] - j, postfixmaxj[j+1]);
-        }
-        // cout<<"PostfixMax:"; for(auto it: postfixmaxj) {cout<<it<<" ";}; cout<<endl;
-        int ans = 0;
-        for(int i = 0; i < n - 1; i++) {
-            ans = max(ans, prefixmaxi[i] + postfixmaxj[i+1]);
+            maxvalid = max(maxvalid - 1, values[i-1] - 1);
+            ans = max(ans, values[i] + maxvalid);
         }
         return ans;
     }
