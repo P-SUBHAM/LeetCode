@@ -23,6 +23,7 @@
 | [1063-best-sightseeing-pair](https://github.com/P-SUBHAM/LeetCode/tree/master/1063-best-sightseeing-pair) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 | [1755-defuse-the-bomb](https://github.com/P-SUBHAM/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
@@ -33,6 +34,7 @@
 | ------- |
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
 | [0624-maximum-distance-in-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
+| [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 ## Binary Search
 |  |
 | ------- |
@@ -68,6 +70,7 @@
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 ## Matrix
 |  |
 | ------- |
@@ -175,4 +178,8 @@
 |  |
 | ------- |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 <!---LeetCode Topics End-->
