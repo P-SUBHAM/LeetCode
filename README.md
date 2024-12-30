@@ -43,6 +43,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
 | [0198-house-robber](https://github.com/P-SUBHAM/LeetCode/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0300-longest-increasing-subsequence) |
@@ -77,6 +78,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/P-SUBHAM/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/P-SUBHAM/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
@@ -93,6 +95,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/P-SUBHAM/LeetCode/tree/master/0031-next-permutation) |
 | [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
