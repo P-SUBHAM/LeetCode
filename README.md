@@ -11,6 +11,7 @@
 | [0046-permutations](https://github.com/P-SUBHAM/LeetCode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/P-SUBHAM/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
 | [0300-longest-increasing-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0300-longest-increasing-subsequence) |
@@ -67,6 +68,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/P-SUBHAM/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
 | [0146-lru-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -108,6 +110,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -163,6 +166,7 @@
 | ------- |
 | [0015-3sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
+| [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 ## Stack
@@ -195,4 +199,8 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/0002-add-two-numbers) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
