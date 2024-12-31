@@ -106,10 +106,12 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/P-SUBHAM/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Simulation
 |  |
@@ -125,6 +127,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0146-lru-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0146-lru-cache) |
 ## Design
 |  |
@@ -182,4 +185,8 @@
 |  |
 | ------- |
 | [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
