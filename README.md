@@ -33,6 +33,7 @@
 | [1950-sign-of-the-product-of-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/P-SUBHAM/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/P-SUBHAM/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/P-SUBHAM/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Greedy
 |  |
@@ -99,6 +100,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/P-SUBHAM/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Backtracking
 |  |
 | ------- |
@@ -219,4 +221,5 @@
 | ------- |
 | [1435-xor-queries-of-a-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/P-SUBHAM/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 <!---LeetCode Topics End-->
