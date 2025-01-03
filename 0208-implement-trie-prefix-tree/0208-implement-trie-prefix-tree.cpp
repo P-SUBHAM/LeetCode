@@ -2,22 +2,14 @@
 class Trie {
 public:
     struct node{
-        bool end;
-        node* next[26];
-        node() {
-            end = false;
-            for(int i = 0; i < 26; i++) {next[i] = NULL; }
-        }
+        bool end = false;
+        node* next[26] = {};
     };
-    node *root;
-    Trie() {
-        root = new node();
-    }
-    
+    node *root = new node();
     void insert(string word) {
         auto it = root;
-        for(int i = 0; i < word.size(); i++) {
-            int ind = word[i] - 'a';
+        for(char c: word) {
+            int ind = c - 'a';
             if(it->next[ind] == NULL) {
                 it->next[ind] = new node();
             }
@@ -25,17 +17,15 @@ public:
         }
         it->end = true;
     }
-    
     bool search(string word) {
         auto it = root;
-        for(int i = 0; i < word.size(); i++) {
-            int ind = word[i] - 'a';
+        for(char c: word) {
+            int ind = c - 'a';
             if(it->next[ind] == NULL) {return false;}
             it = it->next[ind];
         }
         return it->end;
     }
-    
     bool startsWith(string prefix) {
         auto it = root;
         for(int i = 0; i < prefix.size(); i++) {
@@ -43,7 +33,7 @@ public:
             if(it->next[ind] == NULL) {return false;}
             it = it->next[ind];
         }
-        return true;
+        return it;
     }
 };
 
