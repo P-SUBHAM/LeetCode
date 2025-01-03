@@ -1,67 +1,47 @@
+// APPROACH 2 : Simpler Trie Implementation
 class Trie {
 public:
-    struct TrieNode {
-        char val; // node val for debugging 
-        int count; // count starting with
-        int end; // count ending at
-        TrieNode *next[26]; // child nodes
-    };
-
-    TrieNode *root;
-
-    TrieNode *getNode(int ind) {
-        TrieNode* node = new TrieNode;
-        node->val = 'a' + ind;
-        node->count = node->end = 0;
-        for(int i = 0; i < 26; i++) {
-            node->next[i] = NULL;
+    struct node{
+        bool end;
+        node* next[26];
+        node() {
+            end = false;
+            for(int i = 0; i < 26; i++) {next[i] = NULL; }
         }
-        return node;
-    }
-
+    };
+    node *root;
     Trie() {
-        root = getNode('/' - 'a');
+        root = new node();
     }
     
     void insert(string word) {
-        int i = 0, n = word.size();
-        auto curr = root;
-        while(i < n) {
+        auto it = root;
+        for(int i = 0; i < word.size(); i++) {
             int ind = word[i] - 'a';
-            if(curr->next[ind] == NULL) {
-                curr->next[ind] = getNode(word[i]-'a');
+            if(it->next[ind] == NULL) {
+                it->next[ind] = new node();
             }
-            curr = curr->next[ind];
-            curr->count += 1;
-            i++;
+            it = it->next[ind];
         }
-        curr->end += 1;
+        it->end = true;
     }
     
     bool search(string word) {
-        int i = 0, n = word.size();
-        auto curr = root;
-        while(i < n) {
+        auto it = root;
+        for(int i = 0; i < word.size(); i++) {
             int ind = word[i] - 'a';
-            if(curr->next[ind] == NULL) {
-                return false;
-            }
-            curr = curr->next[ind];
-            i++;
+            if(it->next[ind] == NULL) {return false;}
+            it = it->next[ind];
         }
-        return curr->end != 0;
+        return it->end;
     }
     
     bool startsWith(string prefix) {
-        int i = 0, n = prefix.size();
-        auto curr = root;
-        while(i < n) {
+        auto it = root;
+        for(int i = 0; i < prefix.size(); i++) {
             int ind = prefix[i] - 'a';
-            if(curr->next[ind] == NULL) {
-                return false;
-            }
-            curr = curr->next[ind];
-            i++;
+            if(it->next[ind] == NULL) {return false;}
+            it = it->next[ind];
         }
         return true;
     }
@@ -74,3 +54,73 @@ public:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
+
+// APPROACH 1
+// class Trie {
+// public:
+//     struct TrieNode {
+//         char val; // node val for debugging 
+//         int count; // count starting with
+//         int end; // count ending at
+//         TrieNode *next[26]; // child nodes
+//     };
+
+//     TrieNode *root;
+
+//     TrieNode *getNode(int ind) {
+//         TrieNode* node = new TrieNode;
+//         node->val = 'a' + ind;
+//         node->count = node->end = 0;
+//         for(int i = 0; i < 26; i++) {
+//             node->next[i] = NULL;
+//         }
+//         return node;
+//     }
+
+//     Trie() {
+//         root = getNode('/' - 'a');
+//     }
+    
+//     void insert(string word) {
+//         int i = 0, n = word.size();
+//         auto curr = root;
+//         while(i < n) {
+//             int ind = word[i] - 'a';
+//             if(curr->next[ind] == NULL) {
+//                 curr->next[ind] = getNode(word[i]-'a');
+//             }
+//             curr = curr->next[ind];
+//             curr->count += 1;
+//             i++;
+//         }
+//         curr->end += 1;
+//     }
+    
+//     bool search(string word) {
+//         int i = 0, n = word.size();
+//         auto curr = root;
+//         while(i < n) {
+//             int ind = word[i] - 'a';
+//             if(curr->next[ind] == NULL) {
+//                 return false;
+//             }
+//             curr = curr->next[ind];
+//             i++;
+//         }
+//         return curr->end != 0;
+//     }
+    
+//     bool startsWith(string prefix) {
+//         int i = 0, n = prefix.size();
+//         auto curr = root;
+//         while(i < n) {
+//             int ind = prefix[i] - 'a';
+//             if(curr->next[ind] == NULL) {
+//                 return false;
+//             }
+//             curr = curr->next[ind];
+//             i++;
+//         }
+//         return true;
+//     }
+// };
