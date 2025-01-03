@@ -11,6 +11,7 @@
 | [0046-permutations](https://github.com/P-SUBHAM/LeetCode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
+| [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0152-maximum-product-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/P-SUBHAM/LeetCode/tree/master/0198-house-robber) |
@@ -86,6 +87,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -97,6 +99,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/P-SUBHAM/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
@@ -109,6 +112,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/P-SUBHAM/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0046-permutations](https://github.com/P-SUBHAM/LeetCode/tree/master/0046-permutations) |
+| [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0494-target-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0494-target-sum) |
 ## Two Pointers
 |  |
@@ -160,6 +164,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0543-diameter-of-binary-tree) |
