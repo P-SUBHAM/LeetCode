@@ -1,34 +1,18 @@
 class Solution {
 public:
     int myAtoi(string s) {
-        string str = ""; bool num = false, sym = false;
-        for(auto c: s) {
-            if(c == ' ' && !sym && !num) {}
-            else if(c == '-' && !sym) {if(num) {break;} sym = true; str+='-';}
-            else if(c == '+' && !sym) {if(num) {break;} sym = true;}
-            else if(c < '0' or c > '9') {break;}
-            else if(c == '0' && !num) {sym=true;}
-            else {str += c; num = true;}
+        int n = s.size();
+        int i = 0, sign = 1; long long ans = 0;
+        while(i < n && s[i] == ' ') {i++;} // Step-1 removed leading white spaces 
+        if(i < n && s[i] == '-' or s[i] == '+') {i++; if(s[i-1] == '-') {sign = -1;}} //Step-2 Determine sign
+        while(i < n && s[i] == '0') {i++;} // 3.1 remove leading 0's Step 
+        while(i < n) {
+            if(s[i] < '0' or s[i] > '9') {return sign*ans;} // 3.2 If any unwanted char there
+            ans *= 10; ans += (s[i] - '0'); i++;
+            if(sign*ans > INT_MAX) {return INT_MAX;}
+            if(sign*ans < INT_MIN) {return INT_MIN;}
         }
-        cout<<str<<endl;
-        if(str == "" or str == "+" or str == "-") return 0;
-        int len = str.size();
-        if(len >= 14) {
-            if(s[0] == '-') {
-                return -1*(1ll<<31);
-            }
-            else {
-                return (1ll<<31) - 1;
-            }
-        }
-        long long x = stoll(str);
-        if(x > (1ll<<31) - 1) {
-            x = (1ll<<31) - 1;
-        }
-        else if(x < -1ll*1<<31) {
-            x = -1*(1ll<<31);
-        }
-        // cout << x << endl;
-        return x;
+        cout<<"s:"<<sign;
+        return sign*ans;
     }
 };
