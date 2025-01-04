@@ -9,7 +9,7 @@ public:
         while(i < n) {
             if(s[i] < '0' or s[i] > '9') {return sign*ans;} // 3.2 If any unwanted char there
             ans *= 10; ans += (s[i] - '0'); i++;
-            if(sign*ans > INT_MAX) {return INT_MAX;}
+            if(sign*ans > INT_MAX) {return INT_MAX;} // Step 4 if out of bound 
             if(sign*ans < INT_MIN) {return INT_MIN;}
         }
         cout<<"s:"<<sign;
