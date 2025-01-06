@@ -1,4 +1,5 @@
 // Approach 1: Itterate rows, columns then Diagonals
+// check All quals above != -1, else check pending with -1 then return Draw
 class Solution {
 public:
     string tictactoe(vector<vector<int>>& moves) {
