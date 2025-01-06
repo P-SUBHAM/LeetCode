@@ -1,10 +1,23 @@
 // Approach 1: QuickSelect
+// Approach 2: MaxHeap
 class Solution {
 public:
   int findKthLargest(vector<int>& nums, int k) {
-    return QuickSelect(nums,k);
+    return findKthLargestMaxHeap(nums,k);
   }
-  // Aproach 1: QuickSelect O(n -> n^2)
+  // Approach 2: Using MaxHeap O(N+klogN)
+  int findKthLargestMaxHeap(vector<int> &nums, int k) {
+    int n = nums.size();
+    priority_queue<int> pq;
+    for(auto x: nums) {
+        pq.push(x);
+    }
+    while(k-- > 1) {
+        pq.pop();
+    }
+    return pq.top();
+  }
+  // Approach 1: QuickSelect O(n -> n^2)
   int QuickSelect(vector<int>& nums, int k) {
     auto partition = [&](int l, int h) -> int {
       int pivot = nums[h], i = l-1;
