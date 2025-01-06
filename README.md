@@ -78,6 +78,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/P-SUBHAM/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1755-defuse-the-bomb](https://github.com/P-SUBHAM/LeetCode/tree/master/1755-defuse-the-bomb) |
 ## Hash Table
 |  |
@@ -93,6 +94,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0229-majority-element-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0229-majority-element-ii) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
@@ -120,6 +122,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/P-SUBHAM/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
