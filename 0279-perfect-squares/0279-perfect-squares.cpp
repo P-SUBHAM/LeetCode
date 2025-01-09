@@ -1,8 +1,8 @@
-// Approach 1.1 : memoization with vector (static declaration)
+// Approach 1.1 : memoization with vector (Global declaration)
+vector<int> dp(1e4+1,-1);
 class Solution {
 public:
     int numSquares(int n) {
-        static vector<int> dp(1e4 + 1, -1);
         if(n==0) return 0;
         if(dp[n] != -1) {
             return dp[n];
