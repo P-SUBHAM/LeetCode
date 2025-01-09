@@ -1,6 +1,33 @@
+// APROACH 2.3 - memoization using 2d vector // normalize -target by +1e5
 class Solution {
 public:
-    // APPROACH-2.2
+    vector<vector<int>> dp;
+    int dpf(vector<int>& nums, int target, int ind) {
+        int n = nums.size();
+        if(ind == n) {
+            if(target == 0) {
+                return 1;
+            }
+            return 0;
+        }
+        if(dp[2e4+target][ind] != -1) {
+            return dp[2e4+target][ind];
+        }
+        return dp[2e4+target][ind] = dpf(nums,target-nums[ind],ind+1) + dpf(nums,target+nums[ind],ind+1);
+
+    }
+
+    int findTargetSumWays(vector<int>& nums, int target) {
+        dp.clear();
+        dp.resize(1e5,vector<int>(nums.size()+1,-1));
+        return dpf(nums, target, 0);
+    }
+};
+
+/*
+// APPROACH-2.2
+class Solution {
+public:
     // DP using memoization
     // using unordered map with hash for pair type
     struct pair_hash {
@@ -34,6 +61,7 @@ public:
         return findTargetSumWaysf(nums,target,0);
     }
 };
+*/
 
 // FOR vector and set
 // template <typename Container>
