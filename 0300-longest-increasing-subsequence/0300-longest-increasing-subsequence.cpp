@@ -1,3 +1,28 @@
+// Approach 1 : Patience Sort in cpp
+// Keep adding numbers to left most pile with higher value face up card
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+       vector<vector<int>> v(1,vector<int>(1,nums[0]));
+       for(int j = 1; j < nums.size(); j++) {
+            bool put = false;
+            for(int i = 0; i < v.size(); i++) {
+                if(v[i].back() >= nums[j]) {
+                    v[i].push_back(nums[j]);
+                    put = true;
+                    break;
+                }
+            }
+            if(put == false) {
+                vector<int> v1 = {nums[j]};
+                v.push_back(v1);
+            }
+       }
+       return v.size();
+    }
+};
+/*
+// Approach 1 : Memoization
 class Solution {
 public:
     vector<int> dp;
@@ -21,3 +46,4 @@ public:
         return ans;
     }
 };
+*/
