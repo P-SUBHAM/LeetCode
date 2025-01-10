@@ -1,6 +1,25 @@
-// Approach 1 : Patience Sort in cpp
+// Approach 2.2 : Patience Sort in cpp O(nlogn)
 // Keep adding numbers to left most pile with higher value face up card
 class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+       vector<int> v(1,nums[0]);
+       for(int j = 1; j < nums.size(); j++) { //O(n)
+            auto it = lower_bound(v.begin(),v.end(),nums[j]); //O(logn)
+            if(it == v.end()) {
+                v.push_back(nums[j]);
+            }
+            else {
+                *it = nums[j];
+            }
+       }
+       return v.size();
+    }
+};
+
+// Approach 2 : Patience Sort in cpp O(n^2)
+// Keep adding numbers to left most pile with higher value face up card
+class Solution2 {
 public:
     int lengthOfLIS(vector<int>& nums) {
        vector<vector<int>> v(1,vector<int>(1,nums[0]));
@@ -21,9 +40,9 @@ public:
        return v.size();
     }
 };
-/*
-// Approach 1 : Memoization
-class Solution {
+
+// Approach 1 : Memoization O(n^2)
+class Solution1 {
 public:
     vector<int> dp;
     int dpf(vector<int>& nums, int i) { // LIS at i incl nums[i]
@@ -46,4 +65,3 @@ public:
         return ans;
     }
 };
-*/
