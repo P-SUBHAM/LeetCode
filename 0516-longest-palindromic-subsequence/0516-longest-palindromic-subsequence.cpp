@@ -12,22 +12,17 @@ public:
         return longestCommonSubsequence(s,rev);
     }
 
-    vector<vector<int>> dp;
-
-    int dpf(string &text1, string &text2, int i, int j) {
-        if(i == -1 or j == -1) {
-            return 0;
-        }
-        if(dp[i][j] != -1) {return dp[i][j];}
-        if(text1[i] == text2[j]) {
-            return dp[i][j] = 1 + dpf(text1,text2,i-1,j-1);
-        }
-        return dp[i][j] = max(dpf(text1,text2,i-1,j),dpf(text1,text2,i,j-1));
-    }
     int longestCommonSubsequence(string text1, string text2) {
         int n1 = text1.size(), n2 = text2.size();
-        dp.clear();
-        dp.resize(n1,vector<int>(n2,-1));
-        return dpf(text1,text2,n1-1,n2-1);
+        vector<vector<int>> dp(n1, vector<int>(n2, -1));
+        function<int(int, int)> dpf = [&](int i, int j) -> int {
+            if (i == -1 || j == -1) {return 0;}
+            if (dp[i][j] != -1) {return dp[i][j];}
+            if (text1[i] == text2[j]) {
+                return dp[i][j] = 1 + dpf(i - 1, j - 1);
+            }
+            return dp[i][j] = max(dpf(i - 1, j), dpf(i, j - 1));
+        };
+        return dpf(n1 - 1, n2 - 1);
     }
 };
