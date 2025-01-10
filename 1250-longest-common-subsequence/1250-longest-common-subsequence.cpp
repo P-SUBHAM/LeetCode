@@ -4,7 +4,26 @@
 if i,j th char match count for i-1,j-1 else exclude once i or j 
 */
 
+// Approach 2: Find the lcs string
 class Solution {
+public:
+    int longestCommonSubsequence(string text1, string text2) {
+        int n1 = text1.size(), n2 = text2.size();
+        vector<vector<string>> dp(n1, vector<string>(n2, "-1"));
+        function<string(int, int)> dpf = [&](int i, int j) -> string {
+            if(i == -1 or j == -1) {return "";}
+            if(dp[i][j] != "-1") {return dp[i][j];}
+            if(text1[i] == text2[j]) {return dp[i][j]=(dpf(i-1,j-1) + text1[i]);}
+            string s1 = dpf(i-1,j), s2 = dpf(i,j-1);
+            if(s1.size() > s2.size()) {return dp[i][j]=s1;}
+            else {return dp[i][j]=s2;}
+        };
+        return dpf(n1 - 1, n2 - 1).size();
+    }
+};
+
+// Approach 1.1 : lcs with lambda function
+class Solution1_1 {
 public:
     int longestCommonSubsequence(string text1, string text2) {
         int n1 = text1.size(), n2 = text2.size();
