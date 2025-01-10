@@ -18,7 +18,9 @@ public:
             if(s1.size() > s2.size()) {return dp[i][j]=s1;}
             else {return dp[i][j]=s2;}
         };
-        return dpf(n1 - 1, n2 - 1).size();
+        string ans = dpf(n1 - 1, n2 - 1);
+        // cout<<ans;
+        return ans.size();
     }
 };
 
