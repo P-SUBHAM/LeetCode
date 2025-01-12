@@ -25,17 +25,17 @@ public:
         return true;
     }
     bool canBeValid(string s, string locked) {
-        string l = s, r;
         if(s.size()%2 == 1) { // odd length sequence cant be valid
             return false;
         }
         for(int i = 0; i < locked.size(); i++) {
             if(locked[i] == '0') {
-                l[i] = 'x';
+                s[i] = 'x';
             }
         }
-        r = l; reverse(r.begin(),r.end());
-        for(auto &x: r) { // r is reverse(so r to l), {'(',')' swapped as seen from r}
+        bool a = valid(s);
+        reverse(s.begin(),s.end());
+        for(auto &x: s) { // r is reverse(so r to l), {'(',')' swapped as seen from r}
             if(x == '(') {
                 x = ')';
             }
@@ -43,7 +43,7 @@ public:
                 x = '(';
             }
         }
-        bool a = valid(l), b = valid(r);
+        bool b = valid(s);
         // cout<<a<<" "<<b<<endl;
         return a && b;
     }
