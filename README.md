@@ -123,6 +123,7 @@
 | [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 | [1502-construct-k-palindrome-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/P-SUBHAM/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Matrix
 |  |
 | ------- |
@@ -166,6 +167,7 @@
 | [2465-shifting-letters-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/P-SUBHAM/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/P-SUBHAM/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Backtracking
 |  |
 | ------- |
@@ -312,6 +314,7 @@
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0229-majority-element-ii) |
 | [1502-construct-k-palindrome-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/P-SUBHAM/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Prefix Sum
 |  |
 | ------- |
