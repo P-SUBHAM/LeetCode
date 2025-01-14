@@ -35,13 +35,13 @@ public:
             p = p->next->next;
         }
         p = head;
-        while(p->next->next != NULL) { // moves next ptr links
+        while(p != NULL) { // moves next ptr links
             Node *newp = p->next;
+            if(!newp->next) {p->next = NULL; break;}
             p->next = newp->next; // og next link restore
             newp->next = p->next->next;
             p = p->next;
         }
-        p->next = NULL;
         return newhead;
     }
 };
