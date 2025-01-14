@@ -26,13 +26,8 @@ public:
             return reverseKGroup(prevptr,cnt);
         }
         if(currptr!=NULL) {
-            ListNode *rptr = reverseKGroup(currptr,k);
-            head->next = rptr;
-            return prevptr;
+            head->next = reverseKGroup(currptr,k);
         }
-        else {
-            return prevptr;
-        }
-        return NULL;
+        return prevptr;
     }
 };
