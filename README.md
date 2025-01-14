@@ -112,6 +112,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/P-SUBHAM/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/P-SUBHAM/LeetCode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
+| [0138-copy-list-with-random-pointer](https://github.com/P-SUBHAM/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
@@ -227,6 +228,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/P-SUBHAM/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0138-copy-list-with-random-pointer](https://github.com/P-SUBHAM/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0146-lru-cache) |
 ## Design
 |  |
