@@ -66,6 +66,7 @@
 | [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 | [1502-construct-k-palindrome-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2509-minimize-xor](https://github.com/P-SUBHAM/LeetCode/tree/master/2509-minimize-xor) |
 ## Binary Search
 |  |
 | ------- |
@@ -311,6 +312,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2509-minimize-xor](https://github.com/P-SUBHAM/LeetCode/tree/master/2509-minimize-xor) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Merge Sort
 |  |
