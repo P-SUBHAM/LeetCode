@@ -60,12 +60,7 @@ public:
             }
         }
         ZeroOneBFS();
-        cout<<endl;
-        // for(auto x: dist) {
-        //     for(auto y: x) {
-        //         cout<<y<<" ";
-        //     }cout<<endl;
-        // }
+        // cout<<endl; for(auto x: dist) {for(auto y: x) {cout<<y<<" ";}cout<<endl;}
         return dist[m-1][n-1];
     }
 };
