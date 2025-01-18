@@ -1,7 +1,80 @@
+// Approach 3: 0-1 BFS
+// make edges from each node to neighbour with wt 0 or 1
+// use 0-1 bfs if wt is 0 add at front else add at back
+class Solution {
+public:
+    vector<vector<int>> dist;
+    vector<vector<vector<vector<int>>>> adj; // adj[i][j] = [[x1,y1,wt1],[],[]]
+    int m,n,inf;
+    void ZeroOneBFS() {
+        dist[0][0] = 0;
+        deque<pair<int,int>> dqu;
+        dqu.push_back({0,0});
+        while(!dqu.empty()) {
+            pair<int,int> p = dqu.front(); dqu.pop_front();
+            int i = p.first, j = p.second;
+            for(auto it: adj[i][j]) {
+                int x = it[0], y = it[1], w = it[2];
+                if(dist[x][y] > dist[i][j] + w) {
+                    dist[x][y] = dist[i][j] + w;
+                    if(w == 0) {
+                        dqu.push_front({x,y});
+                    }
+                    else {
+                        dqu.push_back({x,y});
+                    }
+                }
+            }
+        }
+    }
+    void GraphEdgeF(int i, int j, int dir) {
+        int wt = 1, w;
+        if(i+1 < m) {
+            w = wt;
+            if(dir == 3) w = 0;
+            adj[i][j].push_back({i+1,j,w});
+        }
+        if(0 <= i-1) {
+            w = wt;
+            if(dir == 4) w = 0;
+            adj[i][j].push_back({i-1,j,w});
+        }
+        if(j+1 < n) {
+            w = wt;
+            if(dir == 1) w = 0;
+            adj[i][j].push_back({i,j+1,w});
+        }
+        if(0 <= j-1) {
+            w = wt;
+            if(dir == 2) w = 0;
+            adj[i][j].push_back({i,j-1,w});
+        }
+    }
+    int minCost(vector<vector<int>>& grid) {
+        m = grid.size(), n = grid[0].size(), inf = 1e5;
+        adj.clear(); adj.resize(m,vector<vector<vector<int>>>(n));
+        dist.clear(); dist.resize(m,vector<int>(n,inf));
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                GraphEdgeF(i,j,grid[i][j]);
+            }
+        }
+        ZeroOneBFS();
+        cout<<endl;
+        // for(auto x: dist) {
+        //     for(auto y: x) {
+        //         cout<<y<<" ";
+        //     }cout<<endl;
+        // }
+        return dist[m-1][n-1];
+    }
+};
+
+
 // Approach 2: Using Graph
 // Shortest-path problem: each cell is node, and moving in dir: 0 cost, change dir: 1 cost. 
 // Using a priority queue (BFS with Dijkstra-like algorithm) ensures the lowest-cost path is always explored first
-class Solution {
+class Solution2 {
 public:
     int minCost(vector<vector<int>>& grid) {
         int m = grid.size(), n = grid[0].size();
@@ -45,7 +118,7 @@ public:
 
 class Solution1 {
 public:
-    // Approach 1: Used DP
+    // Approach 1: Used DP (NOT-OPTIMAL VERSION)
     int m,n; int global_ans; // vector<vector<int>> grid;
     map<pair<pair<int,int>,vector<vector<bool>>>,int> dp;
     vector<int> neiF(int i, int j, vector<vector<bool>> vis) {
