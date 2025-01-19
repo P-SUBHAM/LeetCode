@@ -1,0 +1,14 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card">Minimum Spanning Tree</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 18.6667px;">Given a weighted, undirected, and connected graph with V vertices and E edges, your task is to find the sum of the weights of the edges in the Minimum Spanning Tree (MST) of the graph. The graph is represented by an adjacency list, where each element adj[i] is a vector containing vector of integers. Each vector represents an edge, with the first integer denoting the endpoint of the edge and the second integer denoting the weight of the edge.</span></span></p>
+<pre><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong>Input:
+</strong>3 3
+0 1 5
+1 2 3
+0 2 1
+<img src="https://media.geeksforgeeks.org/img-practice/PROD/addEditProblem/700343/Web/Other/064ccfb5-e351-4908-a660-b228a091eb47_1685086606.png" alt="">
+<strong>Output: </strong>4
+<strong>Explanation</strong>:
+<img style="height: 207px; width: 288px;" src="https://media.geeksforgeeks.org/img-practice/PROD/addEditProblem/700343/Web/Other/64f692e2-1acf-4515-8f46-516521cf0bab_1685086607.png" alt="">
+The Spanning Tree resulting in a weight
+of 4 is shown above.</span></pre>
+<pre><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong style="white-space: normal;">Input:&nbsp;<br></strong><span style="white-space: normal;">2 1 <br>0 1 5</span></span><br><br><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;">&nbsp;<img src="https://media.geeksforgeeks.org/img-practice/PROD/addEditProblem/700343/Web/Other/944e4620-f860-4e62-aa2a-086f31e142cb_1685086607.png" alt=""> </span><br><br><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong>Output: </strong>5 </span><br><br><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong>Explanation</strong>: Only one Spanning Tree is possible which has a weight of 5.<br></span></pre>
+<p><strong style="font-family: arial, helvetica, sans-serif; font-size: 14pt;">Constraints:<br></strong><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;">2 ≤ V ≤ 1000<br>V-1 ≤ E ≤ (V*(V-1))/2<br>1 ≤ w ≤ 1000<br>The graph is connected and doesn't contain self-loops &amp; multiple edges.</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Samsung</code>&nbsp;<code>Cisco</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Greedy</code>&nbsp;<code>Graph</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
