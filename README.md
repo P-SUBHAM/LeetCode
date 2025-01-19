@@ -80,6 +80,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/P-SUBHAM/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -264,6 +265,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -278,6 +280,7 @@
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Union Find
 |  |
 | ------- |
@@ -415,6 +418,7 @@
 | [0210-course-schedule-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0210-course-schedule-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1916-find-center-of-star-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/1916-find-center-of-star-graph) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Topological Sort
 |  |
 | ------- |
@@ -427,4 +431,5 @@
 |  |
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 <!---LeetCode Topics End-->
