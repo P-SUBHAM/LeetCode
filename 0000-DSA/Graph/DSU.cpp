@@ -6,7 +6,7 @@ struct dsu {
         if (p.find(x) == p.end()) return p[x] = x; // Lazy initialization
         return (p[x] == x) ? x : p[x] = find(p[x]); // Path compression
     }
-    void make(int x, int y) {
+    void join(int x, int y) {
         int xr = find(x), yr = find(y);
         if (xr != yr) {
             if (rank[xr] < rank[yr]) { p[xr] = yr;} 
