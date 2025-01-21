@@ -21,6 +21,7 @@
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/P-SUBHAM/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/P-SUBHAM/LeetCode/tree/master/0238-product-of-array-except-self) |
@@ -147,6 +148,7 @@
 | ------- |
 | [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
@@ -172,6 +174,7 @@
 | [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -201,6 +204,7 @@
 | [0022-generate-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/P-SUBHAM/LeetCode/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0494-target-sum) |
 ## Two Pointers
 |  |
@@ -335,6 +339,7 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Bit Manipulation
