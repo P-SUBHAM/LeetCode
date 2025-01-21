@@ -2,7 +2,7 @@
 // create Trie and add all the words
 // now do dfs, send the appropriate trie node, word found in dfs till now
 // based on the next node in trie node it will traverse the grid, before exiting dfs mark the vis as false for next iter of i,j or u can pass new vis each time to dfs function
-// Also used 
+// Also used lamda function, prefer unordered_map
 struct Trie {
     struct Node{
         int end;
