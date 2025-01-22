@@ -296,6 +296,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0112-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
@@ -337,6 +338,7 @@
 ## Tree
 |  |
 | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0112-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -346,6 +348,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0112-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
