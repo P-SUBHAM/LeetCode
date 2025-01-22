@@ -32,6 +32,7 @@
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/P-SUBHAM/LeetCode/tree/master/0542-01-matrix) |
 | [0624-maximum-distance-in-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
@@ -105,6 +106,7 @@
 | [0494-target-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/P-SUBHAM/LeetCode/tree/master/0542-01-matrix) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1025-minimum-cost-for-tickets](https://github.com/P-SUBHAM/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
@@ -151,6 +153,7 @@
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0407-trapping-rain-water-ii) |
+| [0542-01-matrix](https://github.com/P-SUBHAM/LeetCode/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -295,6 +298,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/P-SUBHAM/LeetCode/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0407-trapping-rain-water-ii) |
+| [0542-01-matrix](https://github.com/P-SUBHAM/LeetCode/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
