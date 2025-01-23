@@ -1,3 +1,6 @@
+// Approach 1:
+// first and last occurence of 1 can be used for ends,
+// then for in between u can use (r-l)/2
 class Solution {
 public:
     int maxDistToClosest(vector<int>& seats) {
