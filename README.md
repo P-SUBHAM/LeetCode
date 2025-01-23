@@ -16,6 +16,7 @@
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/P-SUBHAM/LeetCode/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
+| [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/P-SUBHAM/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -345,6 +346,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0020-valid-parentheses) |
+| [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Tree
@@ -490,4 +492,8 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/P-SUBHAM/LeetCode/tree/master/0062-unique-paths) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
