@@ -28,6 +28,7 @@
 | [0238-product-of-array-except-self](https://github.com/P-SUBHAM/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0300-longest-increasing-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0307-range-sum-query-mutable](https://github.com/P-SUBHAM/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [0312-burst-balloons](https://github.com/P-SUBHAM/LeetCode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/P-SUBHAM/LeetCode/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
@@ -106,6 +107,7 @@
 | [0198-house-robber](https://github.com/P-SUBHAM/LeetCode/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/P-SUBHAM/LeetCode/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/P-SUBHAM/LeetCode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/P-SUBHAM/LeetCode/tree/master/0322-coin-change) |
 | [0494-target-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
