@@ -2,7 +2,44 @@
 // Vis all unvisit nodes and check cycle present or not
 // maintain a current recursion stack vis and check
 
-class Solution { //sol3 optimized
+
+class Solution { //simpler code
+// stack finally contains all node which can lead to cycle
+public:
+    vector<vector<int>> adj;
+    bool is_cycle(int src, vector<bool> &vis, vector<bool> &stack) {
+        if(stack[src]) return true;
+        if(vis[src]) return stack[src];
+        stack[src] = true;
+        vis[src] = true;
+        for(auto nei: adj[src]) {
+            if(stack[nei]) {
+                return true;
+            }
+            else if(is_cycle(nei,vis,stack)) {
+                return true;
+            }
+        }
+        stack[src] = false;
+        return false;
+    }
+    
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int n = graph.size();
+        adj = graph;
+        vector<bool> vis(n,false);
+        vector<bool> stack(n,false); // any node which can have cycle will be trapped in stack, so use it to check if cyclic or not
+        vector<int> res;
+        for(int i = 0; i < n; i++) {
+            if(!is_cycle(i,vis,stack)) {
+                res.push_back(i);
+            }
+        }
+        return res;
+    }
+};
+
+class Solution7 { //sol3 optimized // 0<->1 2(points to 0 or 1 then also cycle)
 public:
     vector<vector<int>> adj;
 
