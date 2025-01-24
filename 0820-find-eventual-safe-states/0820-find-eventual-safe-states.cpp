@@ -2,6 +2,54 @@
 // Vis all unvisit nodes and check cycle present or not
 // maintain a current recursion stack vis and check
 
+class Solution { //sol3 optimized
+public:
+    vector<vector<int>> adj;
+
+    bool is_cycle(int src, vector<bool> &vis,vector<bool> &stack,vector<bool> &cycle) {
+        // cout<<"src: "<<src<<endl;
+        // cout<<"v: "; for(auto it: vis) cout<<it<<" "; cout<<endl;
+        // cout<<"c: "; for(auto it: cycle) cout<<it<<" "; cout<<endl;
+        // cout<<"s: "; for(auto it: stack) cout<<it<<" "; cout<<endl;
+        if(vis[src]) return cycle[src];
+        vis[src] = true;
+        stack[src] = true; // maintain recursion stack
+        for(auto nei: adj[src]) {
+            if(is_cycle(nei,vis,stack,cycle)) {
+                stack[src] = false;
+                return cycle[src] = cycle[nei] = true;
+            }
+            if(stack[nei]) {
+                // cout<<" n:"<<nei<<endl;
+                stack[src] = false;
+                return cycle[src] = cycle[nei] = true;
+            }
+        }
+        stack[src] = false;
+        return cycle[src] = false; // return no cycle
+    }
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int n = graph.size();
+        adj = graph;
+        vector<bool> vis(n,false);
+        vector<bool> stack(n,false);
+        vector<bool> cycle(n,false);
+        for(int i = 0; i < n; i++) {
+            if(!vis[i]) {
+                // cout<<"m:";
+                cycle[i] = is_cycle(i,vis,stack,cycle);
+            }
+        }
+        vector<int> ans;
+        for(int i = 0; i < n; i++) {
+            if(!cycle[i]) {
+                ans.push_back(i);
+            }
+        }
+        return ans;
+    }
+};
+
 class Solution6 {
 public:
     vector<vector<int>> adj;
@@ -100,7 +148,7 @@ public:
     }
 };
 
-class Solution {//most optimized solution
+class Solution3 {//most optimized solution
 public:
     vector<vector<int>> adj;
 
