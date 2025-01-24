@@ -8,8 +8,7 @@ class Solution { //simpler code
 public:
     vector<vector<int>> adj;
     bool is_cycle(int src, vector<bool> &vis, vector<bool> &stack) {
-        if(stack[src]) return true;
-        if(vis[src]) return stack[src];
+        if(stack[src]) return true; // Most Important
         stack[src] = true;
         if(!vis[src]) {
             vis[src] = true;
