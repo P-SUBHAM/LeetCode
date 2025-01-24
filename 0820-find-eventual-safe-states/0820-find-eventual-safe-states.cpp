@@ -2,7 +2,7 @@
 // Vis all unvisit nodes and check cycle present or not
 // maintain a current recursion stack vis and check
 
-class Solution {
+class Solution6 {
 public:
     vector<vector<int>> adj;
     bool is_cycle(int src, vector<bool> &vis,vector<bool> &stack) {
@@ -100,7 +100,7 @@ public:
     }
 };
 
-class Solution3 {
+class Solution {//most optimized solution
 public:
     vector<vector<int>> adj;
 
