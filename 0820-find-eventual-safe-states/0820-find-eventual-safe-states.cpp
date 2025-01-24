@@ -4,6 +4,46 @@
 
 class Solution {
 public:
+    vector<vector<int>> adj;
+    bool is_cycle(int src, vector<bool> &vis,vector<bool> &stack) {
+        if(vis[src]) return stack[src];
+        vis[src] = true;
+        stack[src] = true; // maintain recursion stack
+        for(auto nei: adj[src]) {
+            if(!vis[nei]) {
+                if(is_cycle(nei,vis,stack)) {
+                    return stack[src];
+                }
+            }
+            if(stack[nei]) {
+                return stack[src];
+            }
+        }
+        stack[src] = false; // if valid and no cycle(then not present in stack) , if in stack meaning its cycle forming
+        return stack[src]; // return no cycle
+    }
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int n = graph.size();
+        adj = graph;
+        vector<bool> vis(n,false);
+        vector<bool> stack(n,false);
+        for(int i = 0; i < n; i++) {
+            is_cycle(i,vis,stack);
+        }
+        vector<int> ans;
+        for(int i = 0; i < n; i++) {
+            if(!stack[i]) {
+                ans.push_back(i);
+            }
+        }
+        for(auto it: stack) cout<<it<<" "; cout<<endl;
+        for(auto it: vis) cout<<it<<" "; cout<<endl;
+        return ans;
+    }
+};
+
+class Solution5 {
+public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int n = graph.size();
         vector<int> res;
