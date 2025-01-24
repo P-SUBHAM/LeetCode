@@ -9,15 +9,16 @@ public:
     vector<vector<int>> adj;
     bool is_cycle(int src, vector<bool> &vis, vector<bool> &stack) {
         if(stack[src]) return true;
-        if(vis[src]) return stack[src];
         stack[src] = true;
-        vis[src] = true;
-        for(auto nei: adj[src]) {
-            if(stack[nei]) {
-                return true;
-            }
-            else if(is_cycle(nei,vis,stack)) {
-                return true;
+        if(!vis[src]) {
+            vis[src] = true;
+            for(auto nei: adj[src]) {
+                if(stack[nei]) {
+                    return true;
+                }
+                else if(is_cycle(nei,vis,stack)) {
+                    return true;
+                }
             }
         }
         stack[src] = false;
