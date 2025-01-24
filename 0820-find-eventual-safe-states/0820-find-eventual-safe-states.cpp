@@ -2,7 +2,7 @@
 // Vis all unvisit nodes and check cycle present or not
 // maintain a current recursion stack vis and check
 
-class Solution {
+class Solution3 {
 public:
     vector<vector<int>> adj;
 
@@ -89,10 +89,10 @@ public:
     }
 };
 
-class Solution1 {
+class Solution {
 public:
     vector<vector<int>> adj;
-    bool is_cycle(int src, vector<bool> &vis,vector<bool> &stack,vector<bool> cycle) {
+    bool is_cycle(int src, vector<bool> &vis,vector<bool> &stack,vector<bool> &cycle) {
         if(vis[src]) return cycle[src];
         vis[src] = true;
         stack[src] = true; // maintain recursion stack
