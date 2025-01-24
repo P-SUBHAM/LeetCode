@@ -15,15 +15,14 @@ public:
             vis[src] = true;
             for(auto nei: adj[src]) {
                 if(stack[nei]) {
-                    return true;
+                    return stack[src] = true;
                 }
                 else if(is_cycle(nei,vis,stack)) {
-                    return true;
+                    return stack[src] = true;
                 }
             }
         }
-        stack[src] = false;
-        return false;
+        return stack[src] = false;
     }
     
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
