@@ -10,13 +10,13 @@ public:
         vis[src] = true;
         stack[src] = true; // maintain recursion stack
         for(auto nei: adj[src]) {
+            if(stack[nei]) {
+                return stack[src];
+            }
             if(!vis[nei]) {
                 if(is_cycle(nei,vis,stack)) {
                     return stack[src];
                 }
-            }
-            if(stack[nei]) {
-                return stack[src];
             }
         }
         stack[src] = false; // if valid and no cycle(then not present in stack) , if in stack meaning its cycle forming
