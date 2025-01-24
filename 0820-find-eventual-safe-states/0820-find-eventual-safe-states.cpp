@@ -2,6 +2,64 @@
 // Vis all unvisit nodes and check cycle present or not
 // maintain a current recursion stack vis and check
 
+class Solution {
+public:
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int n = graph.size();
+        vector<int> res;
+        vector<int> vis(n, 0); // 0->!vis 1->vis&nocycle 2->cycle
+        vector<int> stack(n, 0);
+        vector<int> cycle(n,0);
+        function<bool(int)> is_cycle = [&](int node) { // return if cycle
+            if(vis[node]) return cycle[node];
+            // if(stack[node]) return cycle[node] = 1;
+            vis[node] = 1; stack[node] = 1;
+            for(auto nei: graph[node]) {
+                if(!vis[nei] && is_cycle(nei)) {
+                    return cycle[node] = 1;
+                }
+                if(stack[nei]) {
+                    return cycle[node] = 1;
+                }
+            }
+            stack[node] = 0; // removed from stack only if valid
+            return cycle[node] = 0;
+        };
+        for (int i = 0; i < n; i++) {
+            if (!is_cycle(i)) res.push_back(i);
+        }
+        for(auto it: cycle) cout<<it<<" ";
+        return res;
+    }
+};
+
+class Solution4 {
+public:
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int n = graph.size();
+        vector<int> result;
+        vector<int> visited(n, 0);
+        vector<int> inStack(n, 0);
+        function<bool(int)> dfs = [&](int node) {
+            if (visited[node] == 1) return false;
+            if (visited[node] == 2) return true;
+            visited[node] = 1;
+            for (int nei : graph[node]) {
+                if (!dfs(nei)) {
+                    visited[node] = 0; 
+                    return false;
+                }
+            }
+            visited[node] = 2;  
+            return true;
+        };
+        for (int i = 0; i < n; i++) {
+            if (dfs(i)) result.push_back(i);
+        }
+        return result;
+    }
+};
+
 class Solution3 {
 public:
     vector<vector<int>> adj;
@@ -89,7 +147,7 @@ public:
     }
 };
 
-class Solution {
+class Solution1 {
 public:
     vector<vector<int>> adj;
     bool is_cycle(int src, vector<bool> &vis,vector<bool> &stack,vector<bool> &cycle) {
