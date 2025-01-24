@@ -8,11 +8,17 @@ public:
         }
         // swap l th element with all elements on right[l to r] and call the recursion
         for(int j = l; j <= r; j++) {
-            vector<int> newnums;
-            newnums = nums;
-            swap(newnums[l],newnums[j]);
-            AllPermuteRec(newnums,l+1,r);
+            swap(nums[l],nums[j]);
+            AllPermuteRec(nums,l+1,r);
+            swap(nums[j],nums[l]);
         }
+        // for(int j = l; j <= r; j++) {
+        //     vector<int> newnums;
+        //     newnums = nums;
+        //     swap(newnums[l],newnums[j]);
+        //     AllPermuteRec(newnums,l+1,r);
+        // }
+
     }
     vector<vector<int>> permute(vector<int>& nums) {
         int n = nums.size();
