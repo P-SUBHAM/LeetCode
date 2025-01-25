@@ -72,6 +72,7 @@
 | [2692-take-gifts-from-the-richest-pile](https://github.com/P-SUBHAM/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/P-SUBHAM/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/P-SUBHAM/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Greedy
 |  |
@@ -341,6 +342,7 @@
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/P-SUBHAM/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -353,6 +355,7 @@
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/P-SUBHAM/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Stack
 |  |
 | ------- |
