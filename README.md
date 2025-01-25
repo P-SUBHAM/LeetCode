@@ -39,6 +39,7 @@
 | [0542-01-matrix](https://github.com/P-SUBHAM/LeetCode/tree/master/0542-01-matrix) |
 | [0624-maximum-distance-in-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0735-asteroid-collision](https://github.com/P-SUBHAM/LeetCode/tree/master/0735-asteroid-collision) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [0879-maximize-distance-to-closest-person](https://github.com/P-SUBHAM/LeetCode/tree/master/0879-maximize-distance-to-closest-person) |
@@ -262,6 +263,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/P-SUBHAM/LeetCode/tree/master/0735-asteroid-collision) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/P-SUBHAM/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -363,6 +365,7 @@
 | [0020-valid-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
+| [0735-asteroid-collision](https://github.com/P-SUBHAM/LeetCode/tree/master/0735-asteroid-collision) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Tree
