@@ -21,6 +21,24 @@ public:
         }
         ans = max(ans,fish);
     }
+    void bfs(vector<vector<int>>& grid, int r, int c) {
+        int fish = grid[r][c];
+        grid[r][c] = 0; // vis
+        stack<vector<int>> st;
+        st.push({r,c});
+        while(!st.empty()) {
+            auto v = st.top(); st.pop();
+            int x = v[0], y = v[1];
+            for(auto dir: dirs) {
+                int nx = x+dir[0], ny = y+dir[1];
+                if(0<=nx&&nx<m && 0<=ny&&ny<n && grid[nx][ny]>0) {
+                    fish += grid[nx][ny]; grid[nx][ny] = 0; // vis->push
+                    st.push({nx,ny});
+                }
+            }
+        }
+        ans = max(ans,fish);
+    }
     int findMaxFish(vector<vector<int>>& grid) {
         ans = 0;
         m = grid.size(), n = grid[0].size();
