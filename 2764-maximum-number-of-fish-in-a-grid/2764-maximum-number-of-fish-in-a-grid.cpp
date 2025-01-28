@@ -3,6 +3,7 @@ class Solution {
 public:
     int ans,m,n; 
     vector<vector<int>> dirs = {{0,-1},{0,1},{1,0},{-1,0}};
+    //DFS
     void dfs(vector<vector<int>>& grid, int r, int c) {
         int fish = grid[r][c];
         grid[r][c] = 0; // vis
@@ -21,6 +22,7 @@ public:
         }
         ans = max(ans,fish);
     }
+    // BFS
     void bfs(vector<vector<int>>& grid, int r, int c) {
         int fish = grid[r][c];
         grid[r][c] = 0; // vis
@@ -45,7 +47,7 @@ public:
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
                 if(grid[i][j] > 0) 
-                    dfs(grid,i,j);
+                    bfs(grid,i,j);
             }
         }
         return ans;
