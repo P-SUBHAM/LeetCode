@@ -361,6 +361,7 @@
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/1558-course-schedule-iv) |
 | [1876-map-of-highest-peak](https://github.com/P-SUBHAM/LeetCode/tree/master/1876-map-of-highest-peak) |
+| [2671-shortest-cycle-in-a-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/2671-shortest-cycle-in-a-graph) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Union Find
@@ -536,6 +537,7 @@
 | [1558-course-schedule-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/1558-course-schedule-iv) |
 | [1916-find-center-of-star-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/1916-find-center-of-star-graph) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/P-SUBHAM/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [2671-shortest-cycle-in-a-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/2671-shortest-cycle-in-a-graph) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Topological Sort
 |  |
