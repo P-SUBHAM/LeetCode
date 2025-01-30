@@ -361,6 +361,7 @@
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/1558-course-schedule-iv) |
 | [1876-map-of-highest-peak](https://github.com/P-SUBHAM/LeetCode/tree/master/1876-map-of-highest-peak) |
+| [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/P-SUBHAM/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2671-shortest-cycle-in-a-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/2671-shortest-cycle-in-a-graph) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
@@ -373,6 +374,7 @@
 | [0801-is-graph-bipartite](https://github.com/P-SUBHAM/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
+| [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/P-SUBHAM/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/P-SUBHAM/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Sorting
@@ -537,6 +539,7 @@
 | [1558-course-schedule-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/1558-course-schedule-iv) |
 | [1916-find-center-of-star-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/1916-find-center-of-star-graph) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/P-SUBHAM/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/P-SUBHAM/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2671-shortest-cycle-in-a-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/2671-shortest-cycle-in-a-graph) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Topological Sort
