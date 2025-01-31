@@ -1,4 +1,71 @@
+// Approach 2: graph traversal, component no and size.
+//1. iterate and calculate component:component_size
+//2. iterate once again and see by adding 1 how much area can you make,(ret glo max)
 class Solution {
+public:
+    vector<vector<int>> dirs = {{0,1},{1,0},{0,-1},{-1,0}};
+    // traverses graph and marks cells as compno, returns size of comp
+    int compdfs(int r,int c,int cno,vector<vector<int>>& grid,int n) {
+        int sz = 0;
+        stack<vector<int>> st; st.push({r,c}); grid[r][c] = cno; sz++;
+        while(!st.empty()) {
+            auto node = st.top(); st.pop();
+            int i = node[0], j = node[1];
+            for(auto dir: dirs) {
+                int nx = i+dir[0], ny = j+dir[1];
+                if(0<=nx&&nx<n&&0<=ny&&ny<n&&grid[nx][ny]==1) {
+                    st.push({nx,ny}); grid[nx][ny] = cno; sz++;
+                }
+            }
+        }
+        return sz;
+    }
+    int largestIsland(vector<vector<int>>& grid) {
+        int n = grid.size(), compno = 2, ans = 1;
+        unordered_map<int,int> compsize;
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j]==1) {//new comp discovered
+                    compsize[compno]=compdfs(i,j,compno,grid,n);
+                    ans=max(ans,compsize[compno]); // max of default comp sz
+                    compno++;
+                }
+            }
+        }
+        // // printing grid after traversal
+        // for(auto r: grid) {
+        //     for(auto c: r) {
+        //         cout<<c<<" ";
+        //     }cout<<endl;
+        // }
+        // for(auto it: compsize) {
+        //     cout<<it.first<<":"<<it.second<<" ";
+        // }
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j]==0) {//check 0->1
+                    // cout<<endl<<i<<j<<endl;
+                    set<int> comp_nei;//distinct nei comp
+                    for(auto dir: dirs) { // check nei comp and size
+                        int nx = i+dir[0], ny = j+dir[1];
+                        if(0<=nx&&nx<n&&0<=ny&&ny<n&&grid[nx][ny]!=0) {
+                            comp_nei.insert(grid[nx][ny]);
+                        }
+                    }
+                    int sz = 0; // 0->1
+                    for(auto neicomp: comp_nei) {
+                        sz += compsize[neicomp];
+                        // cout<<"nei:"<<neicomp<<"sz:"<<sz<<"csz:"<<compsize[neicomp]<<endl;
+                    }
+                    ans = max(ans,sz+1);
+                }
+            }
+        }
+        return ans;
+    }
+};
+
+class Solution1 {
 public:
     vector<vector<int>> g;
     vector<vector<int>> comp;
