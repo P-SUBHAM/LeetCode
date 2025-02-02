@@ -1,4 +1,19 @@
+// Approach 2: using STL 
 class Solution {
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        int n = nums.size();
+        vector<vector<int>> ans;
+        do {
+            ans.push_back(nums);
+        } while(next_permutation(nums.begin(),nums.end()));
+        return ans;
+    }
+};
+
+// Approach 1: Algorithmically
+class Solution1 {
 public:
     vector<vector<int>> ans;
     void AllPermuteRec(vector<int> nums, int l, int r) {
