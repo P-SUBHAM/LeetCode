@@ -49,6 +49,7 @@
 | [0952-word-subsets](https://github.com/P-SUBHAM/LeetCode/tree/master/0952-word-subsets) |
 | [1025-minimum-cost-for-tickets](https://github.com/P-SUBHAM/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1063-best-sightseeing-pair](https://github.com/P-SUBHAM/LeetCode/tree/master/1063-best-sightseeing-pair) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1184-car-pooling](https://github.com/P-SUBHAM/LeetCode/tree/master/1184-car-pooling) |
@@ -412,6 +413,7 @@
 | [0735-asteroid-collision](https://github.com/P-SUBHAM/LeetCode/tree/master/0735-asteroid-collision) |
 | [0931-maximum-frequency-stack](https://github.com/P-SUBHAM/LeetCode/tree/master/0931-maximum-frequency-stack) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Tree
 |  |
@@ -425,6 +427,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -438,6 +441,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Trie
 |  |
@@ -583,6 +587,7 @@
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Enumeration
 |  |
 | ------- |
@@ -595,4 +600,8 @@
 |  |
 | ------- |
 | [0931-maximum-frequency-stack](https://github.com/P-SUBHAM/LeetCode/tree/master/0931-maximum-frequency-stack) |
+## Binary Search Tree
+|  |
+| ------- |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
