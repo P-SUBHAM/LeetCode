@@ -49,6 +49,7 @@
 | [0952-word-subsets](https://github.com/P-SUBHAM/LeetCode/tree/master/0952-word-subsets) |
 | [1025-minimum-cost-for-tickets](https://github.com/P-SUBHAM/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1063-best-sightseeing-pair](https://github.com/P-SUBHAM/LeetCode/tree/master/1063-best-sightseeing-pair) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -106,6 +107,7 @@
 | [0287-find-the-duplicate-number](https://github.com/P-SUBHAM/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
+| [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/P-SUBHAM/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Dynamic Programming
@@ -144,6 +146,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/P-SUBHAM/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1755-defuse-the-bomb](https://github.com/P-SUBHAM/LeetCode/tree/master/1755-defuse-the-bomb) |
 ## Hash Table
 |  |
@@ -490,6 +493,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/P-SUBHAM/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/P-SUBHAM/LeetCode/tree/master/1184-car-pooling) |
 | [1435-xor-queries-of-a-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
