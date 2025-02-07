@@ -136,6 +136,7 @@
 | [0516-longest-palindromic-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/P-SUBHAM/LeetCode/tree/master/0542-01-matrix) |
+| [0650-2-keys-keyboard](https://github.com/P-SUBHAM/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1025-minimum-cost-for-tickets](https://github.com/P-SUBHAM/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
@@ -310,6 +311,7 @@
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
 | [0233-number-of-digit-one](https://github.com/P-SUBHAM/LeetCode/tree/master/0233-number-of-digit-one) |
 | [0279-perfect-squares](https://github.com/P-SUBHAM/LeetCode/tree/master/0279-perfect-squares) |
+| [0650-2-keys-keyboard](https://github.com/P-SUBHAM/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
