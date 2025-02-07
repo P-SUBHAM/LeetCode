@@ -1,4 +1,4 @@
-// Approach 1: Logic Recursion
+// Approach 1: Logic Recursion/DP
 // whatever is the largest divisor of n form that and copy it and paste it n/div times to get n
 // if n is prime u have to paste A n times
 class Solution {
@@ -20,11 +20,11 @@ public:
             }
         }
         // cout<<n<<"->"<<ans<<endl;
-        // return dp[n] = ans;
-        return ans;
+        return dp[n] = ans; // dp
+        return ans; // recursion
     }
     int minSteps(int n) {
-        // dp.clear();
+        // dp.clear(); // same val can be reused
         return minStepsdp(n);
     }
 };
