@@ -20,7 +20,8 @@ public:
             }
         }
         // cout<<n<<"->"<<ans<<endl;
-        return dp[n] = ans;
+        // return dp[n] = ans;
+        return ans;
     }
     int minSteps(int n) {
         // dp.clear();
