@@ -87,6 +87,7 @@
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3429-special-array-i) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/P-SUBHAM/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Greedy
 |  |
 | ------- |
@@ -179,6 +180,7 @@
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2685-first-completely-painted-row-or-column](https://github.com/P-SUBHAM/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/P-SUBHAM/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/P-SUBHAM/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Matrix
 |  |
@@ -295,6 +297,7 @@
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/P-SUBHAM/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/P-SUBHAM/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Math
 |  |
 | ------- |
