@@ -93,6 +93,7 @@
 | [3429-special-array-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/P-SUBHAM/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/P-SUBHAM/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
+| [3721-count-mentions-per-user](https://github.com/P-SUBHAM/LeetCode/tree/master/3721-count-mentions-per-user) |
 ## Greedy
 |  |
 | ------- |
@@ -309,6 +310,7 @@
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/P-SUBHAM/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/P-SUBHAM/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3721-count-mentions-per-user](https://github.com/P-SUBHAM/LeetCode/tree/master/3721-count-mentions-per-user) |
 ## Math
 |  |
 | ------- |
@@ -324,6 +326,7 @@
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/P-SUBHAM/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
+| [3721-count-mentions-per-user](https://github.com/P-SUBHAM/LeetCode/tree/master/3721-count-mentions-per-user) |
 ## Linked List
 |  |
 | ------- |
@@ -430,6 +433,7 @@
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
 | [1184-car-pooling](https://github.com/P-SUBHAM/LeetCode/tree/master/1184-car-pooling) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/P-SUBHAM/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3721-count-mentions-per-user](https://github.com/P-SUBHAM/LeetCode/tree/master/3721-count-mentions-per-user) |
 ## Stack
 |  |
 | ------- |
