@@ -1,6 +1,7 @@
 // Approach 1: Modified kadane algo
 // ai,k = 1..50 so select ai and plan to convert to k
 // choosen x->k convert x->1 and k to -1(as if it comes in subarray it'll be changed and it'll lead to red in k)
+// Tricky lev 87/100 9 feb 25
 class Solution {
 public:
     int kadf(vector<int>& nums, int k, int a) { // convert a to k
