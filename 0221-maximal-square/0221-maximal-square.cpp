@@ -1,6 +1,27 @@
+// Approach 2: Iterative DP
+class Solution {
+public:
+    int maximalSquare(vector<vector<char>>& matrix) {
+        int m = matrix.size(), n = matrix[0].size(), ans = 0;
+        vector<vector<int>> dp(m,vector<int>(n,0));
+        for(int j = 0; j < n; j++) ans = max(ans,dp[m-1][j] = (matrix[m-1][j]=='1'?1:0));
+        for(int i = 0; i < m; i++) ans = max(ans,dp[i][n-1] = (matrix[i][n-1]=='1'?1:0));
+        for(int i = m-2; i >= 0; i--) {
+            for(int j = n-2; j >= 0; j--) {
+                if(matrix[i][j]=='1')
+                    dp[i][j] = min({dp[i+1][j], dp[i][j+1], dp[i+1][j+1]})+1;
+                else
+                    dp[i][j] = 0;
+                ans = max(ans,dp[i][j]);
+            }
+        }
+        return ans*ans;
+    }
+};
+
 // Approach 1: DP memoiation
 // if ij == 1 then check for i+1,j; i,j+1; and the unintersected area
-class Solution {
+class Solution1 {
 public:
     int cnt = 0;
     vector<vector<int>> dp;
