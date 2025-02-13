@@ -1,4 +1,4 @@
-// 
+// Approach 1: Map digitSum:list<digit>
 class Solution {
 public:
     int maximumSum(vector<int>& nums) {
