@@ -2,13 +2,15 @@
 class ProductOfNumbers {
 public:
     vector<int> prefix = {1};
-    set<int> zero;
+    // set<int> zero;
+    vector<int> zero;
     ProductOfNumbers() {
         
     }
     
     void add(int num) {
-        if(num==0) {prefix.push_back(1); zero.insert(prefix.size()-1);}
+        // if(num==0) {prefix.push_back(1); zero.insert(prefix.size()-1);}
+        if(num==0) {prefix.push_back(1); zero.push_back(prefix.size()-1);}
         else prefix.push_back(prefix.back()*num);
     }
     
