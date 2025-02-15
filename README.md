@@ -285,6 +285,7 @@
 | [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/P-SUBHAM/LeetCode/tree/master/1160-letter-tile-possibilities) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/P-SUBHAM/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Two Pointers
 |  |
 | ------- |
@@ -351,6 +352,7 @@
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2448-count-number-of-bad-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/P-SUBHAM/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/P-SUBHAM/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3721-count-mentions-per-user](https://github.com/P-SUBHAM/LeetCode/tree/master/3721-count-mentions-per-user) |
 ## Linked List
