@@ -30,7 +30,7 @@ public:
         return ans;
     }
 };
-// T: 626ms Beats 14.86%; S: 118.62MB Beats 13.10%
+// T: 387ms Beats 16.37%; S: 130.01MB Beats 12.34%
 
 // Approach 1: Dp to find if a number is punishable or not
 class Solution1 {
