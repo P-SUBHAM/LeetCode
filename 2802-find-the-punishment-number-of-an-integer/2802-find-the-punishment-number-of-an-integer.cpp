@@ -1,4 +1,4 @@
-// Approach 1: Dp to find if a number is punishable or not
+// Approach 2: Dp to find if a number is punishable or not (hash) + dp for ans
 class Solution {
 public:
     struct pair_hash{
@@ -22,15 +22,16 @@ public:
         }
         return dp[{digitstr,n}] = false;
     }
+    unordered_map<int,int> pno;
     int punishmentNumber(int n) {
-        int ans = 0;
-        for(int i = 1; i <= n; i++) {
-            if(punishable(i*i,i)) ans += i*i;
+        if(pno.find(n)!=pno.end()) return pno[n];
+        for(int i = 1; i <= 1000; i++) {
+            pno[i] = pno[i-1] + (punishable(i*i,i)?i*i:0);
         }
-        return ans;
+        return pno[n];
     }
 };
-// T: 387ms Beats 16.37%; S: 130.01MB Beats 12.34%
+//
 
 // Approach 1: Dp to find if a number is punishable or not
 class Solution1 {
