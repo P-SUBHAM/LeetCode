@@ -1,3 +1,6 @@
+// Approach 1: BackTracking
+// select the leftmost open index and choose from max num 
+// select and recurse/backtrack to find the lexicographically largest permutation
 class Solution {
 public:
     int cnt = 0;
