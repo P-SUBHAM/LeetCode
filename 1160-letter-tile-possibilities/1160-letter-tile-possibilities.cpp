@@ -1,5 +1,30 @@
-// Approach 1: BruteForce as len <= 7
 class Solution {
+public: // code here
+    unordered_set<string> ans;
+    void rec(string s, int size, map<char,int> &mp) {
+        if(s.size()==size) {
+            ans.insert(s); return;
+        }
+        map<char,int> tempmp = mp;
+        for(auto it: tempmp) {
+            char ch = it.first;
+            if(--mp[ch] == 0) mp.erase(ch);
+            rec(s+it.first,size,mp);
+            mp[ch]++;
+        }
+    }
+    int numTilePossibilities(string tiles) {
+        map<char,int> mp;
+        int n = tiles.size();
+        for(auto ch: tiles) mp[ch]++;
+        for(int i = 1; i <= n; i++) {
+            rec("",i,mp);
+        }
+        return ans.size();
+    }
+};
+// Approach 1: BruteForce as len <= 7
+class Solution1 {
 public:
     int cnt = 0;
     set<string> st;
