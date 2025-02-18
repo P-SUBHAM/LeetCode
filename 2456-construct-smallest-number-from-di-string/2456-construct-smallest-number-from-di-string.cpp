@@ -1,6 +1,29 @@
+// Approach 2: O(n)
+// keep assigning number 1 to n+1 if I ok
+// if D D seq then reverse that part (stack)
+class Solution {
+public:
+    string smallestNumber(string pattern) {
+        int n = pattern.size();
+        string ans = ""; stack<char> st;
+        for(int i = 1; i <= n+1; i++) {
+            char ch = '0'+i;
+            st.push(ch);
+            cout<<i<<pattern[i-1]<<endl;
+            if(pattern[i-1]=='I' || i==n+1) { // whenever I whatever is contrib by D rev it, or else if its end and if it was D then also we need to invert
+                
+                while(!st.empty()) {
+                    ans += st.top(); st.pop();
+                }
+            }
+        }
+        return ans;
+    }
+};
+
 // Approach 1: BackTracking
 // create set of chars, for a given pos choose the smallest char from set, then check if we can form a valid sequence from that, if not backtrack, else we have lexicographically smallest sequence
-class Solution {
+class Solution1 {
 public:
     string ans, pat;
     bool DI(string s, set<char> &st,int i) {
