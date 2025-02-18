@@ -9,8 +9,8 @@ public:
         for(int i = 1; i <= n+1; i++) {
             char ch = '0'+i;
             st.push(ch);
-            cout<<i<<pattern[i-1]<<endl;
-            if(pattern[i-1]=='I' || i==n+1) { // whenever I whatever is contrib by D rev it, or else if its end and if it was D then also we need to invert
+            // cout<<i<<pattern[i-1]<<endl;
+            if(i==n+1 || pattern[i-1]=='I') { // whenever I whatever is contrib by D rev it, or else if its end and if it was D then also we need to invert
                 
                 while(!st.empty()) {
                     ans += st.top(); st.pop();
