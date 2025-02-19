@@ -4,7 +4,7 @@ class Solution {
 public:
     vector<string> dict;
     vector<string> ans;
-    map<string,bool> memo;
+    unordered_map<string,bool> memo;
     unordered_set<string> dicst;
     bool concatWord(string s, bool spl) {
         if(s.size()==0) return true;
