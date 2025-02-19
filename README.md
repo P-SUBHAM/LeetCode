@@ -18,6 +18,7 @@
 | [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/P-SUBHAM/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
@@ -140,6 +141,7 @@
 | [0062-unique-paths](https://github.com/P-SUBHAM/LeetCode/tree/master/0062-unique-paths) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/P-SUBHAM/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/P-SUBHAM/LeetCode/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/P-SUBHAM/LeetCode/tree/master/0221-maximal-square) |
@@ -183,6 +185,7 @@
 | [0076-minimum-window-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/P-SUBHAM/LeetCode/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/P-SUBHAM/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
@@ -247,6 +250,7 @@
 | [0076-minimum-window-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/P-SUBHAM/LeetCode/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
@@ -521,6 +525,7 @@
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0212-word-search-ii) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
@@ -691,4 +696,8 @@
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
