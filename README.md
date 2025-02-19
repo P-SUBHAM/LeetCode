@@ -253,6 +253,7 @@
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0412-fizz-buzz](https://github.com/P-SUBHAM/LeetCode/tree/master/0412-fizz-buzz) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/P-SUBHAM/LeetCode/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
@@ -333,6 +334,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/P-SUBHAM/LeetCode/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/P-SUBHAM/LeetCode/tree/master/0735-asteroid-collision) |
 | [1184-car-pooling](https://github.com/P-SUBHAM/LeetCode/tree/master/1184-car-pooling) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -352,6 +354,7 @@
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
 | [0233-number-of-digit-one](https://github.com/P-SUBHAM/LeetCode/tree/master/0233-number-of-digit-one) |
 | [0279-perfect-squares](https://github.com/P-SUBHAM/LeetCode/tree/master/0279-perfect-squares) |
+| [0412-fizz-buzz](https://github.com/P-SUBHAM/LeetCode/tree/master/0412-fizz-buzz) |
 | [0650-2-keys-keyboard](https://github.com/P-SUBHAM/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1477-product-of-the-last-k-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
