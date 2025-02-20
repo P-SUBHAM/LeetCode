@@ -15,7 +15,7 @@ public:
             v.push_back(no);
         }
         sort(v.begin(),v.end());
-        for(auto it: v) cout<<it<<" "; cout<<endl;
+        // for(auto it: v) cout<<it<<" "; cout<<endl;
         int missno = -1; // convert back into binary string
         for(int i = 0; i < n; i++) { // n+1 no's
             if(v[i]!=i) {
