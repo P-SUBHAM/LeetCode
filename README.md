@@ -88,6 +88,7 @@
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2176-parallel-courses-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/2176-parallel-courses-iii) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/P-SUBHAM/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/P-SUBHAM/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2341-count-prefixes-of-a-given-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2341-count-prefixes-of-a-given-string) |
 | [2358-number-of-ways-to-split-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
@@ -338,6 +339,7 @@
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/P-SUBHAM/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/P-SUBHAM/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Divide and Conquer
@@ -373,6 +375,7 @@
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/P-SUBHAM/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
