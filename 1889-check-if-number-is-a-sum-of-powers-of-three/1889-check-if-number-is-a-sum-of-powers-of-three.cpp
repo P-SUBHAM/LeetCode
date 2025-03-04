@@ -5,9 +5,11 @@ public:
     bool checkPowersOfThree(int n) {
         vector<int> expression;
         while(n > 0) {
-            expression.push_back(n%3); 
+            if(n%3 == 2) return false; 
+            // expression.push_back(n%3); 
             n /= 3;
-        }
+        } 
+        return true;
         reverse(expression.begin(),expression.end());
         for(auto it: expression) cout<<it<<" "; cout<<endl;
         for(auto it: expression) if(it == 2) return false;
