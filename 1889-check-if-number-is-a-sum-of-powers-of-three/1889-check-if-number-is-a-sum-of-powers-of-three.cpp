@@ -1,3 +1,5 @@
+// Approach 1: Recursion
+// 3^x grows exponentially either include a power or skip it
 class Solution {
 public:
     bool power3(int n, int x) {
