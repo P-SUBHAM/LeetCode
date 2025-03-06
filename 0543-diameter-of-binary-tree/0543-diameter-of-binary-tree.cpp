@@ -9,6 +9,23 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+//practice
+class Solution {
+public:
+    int ans;
+    int maxl(TreeNode* root) {
+        if(root == NULL) return 0;
+        int l = maxl(root->left), r = maxl(root->right);
+        ans = max(ans,l+r);
+        return 1 + max(l,r);
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        ans = 0;
+        if(root==NULL) return 0;
+        return max(ans,maxl(root->left)+maxl(root->right));
+    }
+};
+
 // Approach 1:
 // calc maxpath length for left and right and return max
 // before return calc global(dia = l_len + r_len)
@@ -41,7 +58,7 @@ public:
  * 3. Return the maximum of the global diameter and the local diameter, 
  *    with the maximum path length helping propagate the results upward.
  */
-class Solution {
+class Solution2 {
 public:
     // return global diameter, maxpath length through node
     pair<int,int> diaMaxPathf(TreeNode* root) {
