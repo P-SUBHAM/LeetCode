@@ -9,7 +9,26 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// practice
+
 class Solution {
+public:
+    int ans;
+    int maxPathS(TreeNode* root) {
+        if(root == NULL) return -1e9;
+        int l = maxPathS(root->left), r = maxPathS(root->right), x = root->val;
+        ans = max({ans,l+x+r,l+x,x+r,l,r,x});
+        return max({x,x+max(l,r)});
+    }
+    int maxPathSum(TreeNode* root) {
+        if(root==NULL) return 0;
+        ans = root->val;
+        maxPathS(root);
+        return ans;
+    }
+};
+
+class Solution1 {
 public:
     int ans;
     int maxPathSumRoot(TreeNode* root) {
