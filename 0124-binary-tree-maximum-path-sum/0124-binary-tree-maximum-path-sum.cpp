@@ -15,13 +15,15 @@ class Solution {
 public:
     int ans;
     int maxPathS(TreeNode* root) {
-        if(root == NULL) return -1e9;
-        int l = maxPathS(root->left), r = maxPathS(root->right), x = root->val;
-        ans = max({ans,l+x+r,l+x,x+r,l,r,x});
-        return max({x,x+max(l,r)});
+        if(root == NULL) return 0;
+        // max +ve contribution from l and r
+        int l = max(0,maxPathS(root->left));  
+        int r = max(0,maxPathS(root->right));
+        int x = root->val;
+        ans = max(ans,x+l+r);
+        return x + max(l,r);
     }
     int maxPathSum(TreeNode* root) {
-        if(root==NULL) return 0;
         ans = root->val;
         maxPathS(root);
         return ans;
