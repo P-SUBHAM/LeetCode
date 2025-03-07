@@ -404,6 +404,7 @@
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2448-count-number-of-bad-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
+| [2610-closest-prime-numbers-in-range](https://github.com/P-SUBHAM/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/P-SUBHAM/LeetCode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/P-SUBHAM/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3227-find-missing-and-repeated-values](https://github.com/P-SUBHAM/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
@@ -739,6 +740,7 @@
 |  |
 | ------- |
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
+| [2610-closest-prime-numbers-in-range](https://github.com/P-SUBHAM/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 ## Ordered Set
 |  |
 | ------- |
