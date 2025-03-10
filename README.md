@@ -190,6 +190,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1755-defuse-the-bomb](https://github.com/P-SUBHAM/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/P-SUBHAM/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -235,6 +236,7 @@
 | [3227-find-missing-and-repeated-values](https://github.com/P-SUBHAM/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/P-SUBHAM/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/P-SUBHAM/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/P-SUBHAM/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Matrix
 |  |
@@ -314,6 +316,7 @@
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/P-SUBHAM/LeetCode/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/P-SUBHAM/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Backtracking
 |  |
 | ------- |
