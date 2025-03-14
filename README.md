@@ -67,6 +67,7 @@
 | [1063-best-sightseeing-pair](https://github.com/P-SUBHAM/LeetCode/tree/master/1063-best-sightseeing-pair) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1184-car-pooling](https://github.com/P-SUBHAM/LeetCode/tree/master/1184-car-pooling) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/P-SUBHAM/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -145,6 +146,7 @@
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/P-SUBHAM/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/P-SUBHAM/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/P-SUBHAM/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Dynamic Programming
