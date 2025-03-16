@@ -11,6 +11,7 @@
 | [0031-next-permutation](https://github.com/P-SUBHAM/LeetCode/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0041-first-missing-positive](https://github.com/P-SUBHAM/LeetCode/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/P-SUBHAM/LeetCode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
@@ -161,6 +162,7 @@
 | [0005-longest-palindromic-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/P-SUBHAM/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/P-SUBHAM/LeetCode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/P-SUBHAM/LeetCode/tree/master/0062-unique-paths) |
@@ -355,6 +357,7 @@
 | [0015-3sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/P-SUBHAM/LeetCode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0287-find-the-duplicate-number](https://github.com/P-SUBHAM/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0443-string-compression](https://github.com/P-SUBHAM/LeetCode/tree/master/0443-string-compression) |
@@ -548,6 +551,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -749,6 +753,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
