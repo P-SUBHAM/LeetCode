@@ -1,8 +1,41 @@
+// Practice
+class Solution {
+public:
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+        int n = numCourses;
+        vector<int> indeg(n,0);
+        vector<vector<int>> adj(n);
+        for(auto it: prerequisites) {
+            int early = it[1], later = it[0];
+            indeg[later]++;
+            adj[early].push_back(later);
+        }
+        queue<int> qu; // bfs level order traversal
+        for(int i = 0; i < n; i++) {
+            if(indeg[i]==0) qu.push(i);
+        }
+        vector<int> ans;
+        while(!qu.empty()) {
+            int sz = qu.size();
+            while(sz--) {
+                auto node = qu.front(); qu.pop(); 
+                ans.push_back(node);
+                for(auto nei: adj[node]) {
+                    if(--indeg[nei] == 0) {
+                        qu.push(nei);
+                    }
+                }
+            }
+        }
+        return (ans.size() == n)? ans : vector<int>();
+    }
+};
+
 // Approach 1: Topological Sort
 // Push all nodes with 0 indegree into queue(bfs)
 // keep poping element and decreasing indegree of neighbor node, if neihgbor node indeg = 0, push into queue
 // keep count, if count not equal to all elements then topolocal sort doesnt exist
-class Solution {
+class Solution1 {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
