@@ -4,33 +4,29 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 // User Function Template
 class Solution {
   public:
     // Function to find the shortest distance of all the vertices
-    // from the source vertex src.
-    vector<bool> vis;
-    vector<int> dist;
+    // from the source vertex src. // pair<global_dist,node>
     vector<int> dijkstra(vector<vector<pair<int, int>>> &adj, int src) {
-        int v = adj.size();
-        vis.clear(); vis.resize(v,false);
-        dist.clear(); dist.resize(v,INT_MAX);
-        priority_queue<pair<int,int>,vector<pair<int,int>>,
-        greater<pair<int,int>>> pq;
-        pq.push({0,src}); dist[src] = 0; // no vis need as a->b->a wont happen as wt will increase
+        int n = adj.size();vector<int> dist(n,1e9);dist[src] = 0;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<>> pq;
+        pq.push({0,src});
         while(!pq.empty()) {
-            pair<int,int> pe = pq.top(); pq.pop();
-            int wt = pe.first; int curr = pe.second;
-            for(auto it: adj[curr]) {
-                if(dist[it.first] > dist[curr] + it.second) { // (nei,curr+neiWT)
-                    dist[it.first] = dist[curr] + it.second;
-                    pq.push({it.second,it.first});
+            auto node = pq.top(); pq.pop();
+            for(auto nei: adj[node.second]) {
+                int u = node.second, v = nei.first, wt = nei.second;
+                if(dist[v] > dist[u] + wt) {
+                    dist[v] = dist[u] + wt; pq.push({dist[v],v});
                 }
             }
         }
         return dist;
     }
 };
+
 
 
 //{ Driver Code Starts.
