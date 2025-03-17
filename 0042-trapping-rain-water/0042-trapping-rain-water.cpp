@@ -1,7 +1,25 @@
+// practice 202503180111
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        int n = height.size(), ans = 0;
+        stack<int> st;
+        for(int i = 0; i < n; i++) {
+            while(!st.empty() && height[i] > height[st.top()]) { // dont forget height[st.top()]
+                int curr = st.top(); st.pop();
+                if(st.empty()) continue;
+                ans += (min(height[st.top()],height[i])-height[curr])*(i-st.top()-1);
+            }
+            st.push(i); 
+        }
+        return ans;
+    }
+};
+
 // Approach 2: monotonic decreasing stack 
 // to keep track of max on left, once we get curr > stack.top we know we are getting a container
 // we calc water for each horizontal level (st.top-1,st.top)*hor dist
-class Solution {
+class Solution2 {
 public:
     int trap(vector<int>& height) {
         stack<int> st; int n = height.size(), ans = 0;
@@ -55,3 +73,9 @@ public:
         return ans;
     }
 };
+
+/* count = 3;
+18 mar 25
+16 mar 25
+15 apr 21
+*/
