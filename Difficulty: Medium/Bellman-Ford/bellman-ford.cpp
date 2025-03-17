@@ -9,6 +9,8 @@ using namespace std;
 
 
 // } Driver Code Ends
+
+
 // User function Template for C++
 
 class Solution {
@@ -22,26 +24,24 @@ class Solution {
     // iter n-1 times on all edges e (n-1 as max path n-1 edges)
     // u v w min(dist[v],dist[u]+w)
     vector<int> bellmanFord(int V, vector<vector<int>>& edges, int src) {
-        int inf = 1e8;
-        vector<int> dist(V,inf); dist[src] = 0;
-        bool change;
-        for(int i = 0; i < V; i++) {
+        int n = V;
+        vector<int> dist(n,1e8); dist[src] = 0; bool change = false;
+        for(int i = 0; i < n; i++) {
             change = false;
-            for(auto e: edges) {
-                int u = e[0];
-                int v = e[1];
-                int w = e[2];
-                if(dist[u] != inf) { // update only if helping inf+delta~inf
-                    if(dist[v] > dist[u]+w) {
-                        change = true;
-                    }
-                    dist[v] = min(dist[v],dist[u]+w);
-                }
+            for(auto it: edges) {
+                int u = it[0], v = it[1], wt = it[2];
+                if(dist[u]==1e8) continue; // inf - 4 ~ inf so skip
+                if(dist[v] > dist[u] + wt) change = true;
+                dist[v] = min(dist[v],dist[u] + wt);
             }
         }
-        return (change == false) ? dist : vector<int>(1,-1);
+        if(change) return {-1};
+        return dist;
     }
 };
+
+
+
 
 
 //{ Driver Code Starts.
