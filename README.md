@@ -370,6 +370,7 @@
 | [0042-trapping-rain-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/P-SUBHAM/LeetCode/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/P-SUBHAM/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0148-sort-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0287-find-the-duplicate-number](https://github.com/P-SUBHAM/LeetCode/tree/master/0287-find-the-duplicate-number) |
@@ -387,6 +388,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -458,6 +460,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/P-SUBHAM/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/P-SUBHAM/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0146-lru-cache) |
+| [0148-sort-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0328-odd-even-linked-list) |
@@ -556,6 +559,7 @@
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/P-SUBHAM/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/P-SUBHAM/LeetCode/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0229-majority-element-ii) |
@@ -646,6 +650,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0148-sort-list) |
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
 ## Recursion
 |  |
