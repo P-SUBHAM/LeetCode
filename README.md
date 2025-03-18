@@ -20,6 +20,7 @@
 | [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/P-SUBHAM/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0118-pascals-triangle](https://github.com/P-SUBHAM/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/P-SUBHAM/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0140-word-break-ii) |
@@ -169,6 +170,7 @@
 | [0044-wildcard-matching](https://github.com/P-SUBHAM/LeetCode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/P-SUBHAM/LeetCode/tree/master/0062-unique-paths) |
+| [0118-pascals-triangle](https://github.com/P-SUBHAM/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/P-SUBHAM/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
