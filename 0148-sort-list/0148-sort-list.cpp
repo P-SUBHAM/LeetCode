@@ -13,13 +13,20 @@
 // 1 2s 3f N
 // 1 2 N
 // 4h2 5 N
+// Approach 1: Merge Sort for Linked List sorting
+// Take care to handle when there are 2 nodes
 class Solution {
 public:
   ListNode* sortList(ListNode* head) {
     if (head == NULL || head->next == NULL)
       return head;
     ListNode *slow = head, *fast = head;
-    while (fast != NULL && fast->next != NULL && fast->next->next != NULL) {
+    if(head->next->next == NULL) {// if you don't use fast->next->next != NULL for 2 node
+      if(head->val > head->next->val)
+        swap(head->val,head->next->val);
+      return head;
+    }
+    while (fast != NULL && fast->next != NULL){ // && fast->next->next != NULL) {
       slow = slow->next;
       fast = fast->next->next;
     }
