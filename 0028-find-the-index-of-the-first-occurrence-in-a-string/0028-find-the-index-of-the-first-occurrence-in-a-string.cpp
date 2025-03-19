@@ -19,7 +19,7 @@ public:
         vector<int> prefix = prefix_func(needle);
         for(auto it: prefix) cout<<it<<" "; cout<<endl;
         int j = 0;
-        for(int i = 0; i < haystack.size(); i++) {
+        for(int i = 0; i < haystack.size(); i++) {// use while loop
             cout<<i<<j<<endl;
             if(haystack[i] == needle[j]) {
                 j++;
