@@ -4,12 +4,20 @@ class Solution {
 public:
     struct dsu { // nlogn + rank
         unordered_map<int,int> p;
+        unordered_map<int,int> r;
         int find(int x) {
             if(p.find(x)==p.end()) return p[x] = x;
             return p[x] = (p[x] == x)?x: find(p[x]);
         }
-        void join(int x, int y) {
+        void joinn(int x, int y) {
             p[find(y)] = find(x);
+        }
+        void join(int x, int y) {
+            int px = find(x), py = find(y);
+            if(px==py) return;
+            if(r[px] > r[py]) {p[py] = px;}
+            else if(r[px] < r[py]) {p[px] = py;}
+            else {p[py] = px; r[px]++;}
         }
     };
     unordered_map<int,int> min_and;
