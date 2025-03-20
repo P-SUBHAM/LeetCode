@@ -1,3 +1,8 @@
+// Approach 1.1: Using Deque
+// if a larger element comes all smaller elements currently in deque are of no use
+// if a smaller element comes then it should be considered as it can contirbute as max in the future
+// while removing the element check if it is current max(then remove) 
+// the higher no on right of smaller can only occur if smaller(newer) came after higher(older) so when removing higher(older) is removed then the newer becomes older it also gets removed
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
