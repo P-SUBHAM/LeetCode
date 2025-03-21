@@ -1,5 +1,57 @@
-// APPROACH 2 : Simpler Trie Implementation
+// practice
 class Trie {
+public:
+    struct node {
+      bool end = false;
+      unordered_map<char,node*> next;
+    };
+    // Trie() {
+        
+    // }
+    node *root = new node;
+    void insert(string word) {
+      auto it = root;
+      for(auto ch: word) {
+        if(it->next[ch]==NULL) {
+          it->next[ch] = new node;
+        }
+        it = it->next[ch];
+      }
+      it->end = true;
+    }
+    bool search(string word) {
+      auto it = root;
+      for(auto ch: word) {
+        if(it->next[ch]==NULL)
+          return false;
+        it = it->next[ch];
+      }
+      return it->end;
+    }
+    
+    bool startsWith(string prefix) {
+      auto it = root;
+      for(auto ch: prefix) {
+        if(it->next[ch]==NULL)
+          return false;
+        it = it->next[ch];
+      }
+      return it != NULL;
+    }
+};
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie* obj = new Trie();
+ * obj->insert(word);
+ * bool param_2 = obj->search(word);
+ * bool param_3 = obj->startsWith(prefix);
+ */
+
+// ---------
+
+// APPROACH 2 : Simpler Trie Implementation
+class Trie2 {
 public:
     struct node{
         bool end = false;
