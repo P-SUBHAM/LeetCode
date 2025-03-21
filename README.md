@@ -102,6 +102,7 @@
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2176-parallel-courses-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/2176-parallel-courses-iii) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/P-SUBHAM/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/P-SUBHAM/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/P-SUBHAM/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -267,6 +268,7 @@
 | [1502-construct-k-palindrome-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2107-find-unique-binary-string) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/P-SUBHAM/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2434-design-a-number-container-system](https://github.com/P-SUBHAM/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
@@ -348,6 +350,7 @@
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2107-find-unique-binary-string) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/P-SUBHAM/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/P-SUBHAM/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2341-count-prefixes-of-a-given-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2341-count-prefixes-of-a-given-string) |
@@ -791,6 +794,7 @@
 | [1558-course-schedule-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/1558-course-schedule-iv) |
 | [1916-find-center-of-star-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/1916-find-center-of-star-graph) |
 | [2176-parallel-courses-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/2176-parallel-courses-iii) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/P-SUBHAM/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/P-SUBHAM/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/P-SUBHAM/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2671-shortest-cycle-in-a-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/2671-shortest-cycle-in-a-graph) |
@@ -803,6 +807,7 @@
 | [0820-find-eventual-safe-states](https://github.com/P-SUBHAM/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/1558-course-schedule-iv) |
 | [2176-parallel-courses-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/2176-parallel-courses-iii) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/P-SUBHAM/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/P-SUBHAM/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Brainteaser
 |  |
