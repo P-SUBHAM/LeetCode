@@ -1,6 +1,55 @@
 class Solution {
 public:
     struct dsu {
+        unordered_map<int,int> p;
+        int find_set(int x) {
+            if(p.find(x) == p.end()) return p[x] = x;
+            return p[x]= ((p[x] == x)?x:find_set(p[x]));
+        }
+        void union_set(int x, int y) {
+            // cout<<"unionset:"<<x<<y<<endl;
+            p[find_set(x)] = find_set(y);
+        }
+    };
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        unordered_map<string,int> mp;
+        dsu G;
+        for(int i = 0; i < accounts.size(); i++) {
+            for(int j = 1; j < accounts[i].size(); j++) {
+                string mail = accounts[i][j];
+                if(mp.find(mail) == mp.end()) {
+                    mp[mail] = i;
+                }
+                else {
+                    // cout<<"merge:"<<mp[mail]<<","<<i<<endl;
+                    G.union_set(mp[mail],i);
+                }
+            }
+        }
+        unordered_map<int,vector<string>> ansmp;
+        for(auto it: mp) {
+            int id = it.second;
+            string mail = it.first;
+            int pid = G.find_set(id);
+            ansmp[pid].push_back(mail);
+            // cout<<"id:"<<id<<"pid:"<<pid<<"mail:"<<mail<<endl;
+        }
+        vector<vector<string>> ans;
+        for(auto it: ansmp) {
+            int ownerid = it.first;
+            string owner = accounts[ownerid][0];
+            auto v = it.second;
+            v.insert(v.begin(),{owner});
+            sort(v.begin()+1,v.end());
+            ans.push_back(v);
+        }
+        return ans;
+    }
+};
+
+class Solution1 {
+public:
+    struct dsu {
         vector<int> parent;
         vector<int> rank;
         dsu(int n) {
