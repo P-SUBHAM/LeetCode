@@ -14,7 +14,7 @@ public:
 
                 // if nei cant be visited faster than current parent node, that means this must be a bridge to next scc as p has to come first
                 if(low[nei] > tin[node]) {
-                    cout<<node<<"-"<<nei<<endl;
+                    // cout<<node<<"-"<<nei<<endl;
                     bridges.push_back({node,nei});
                 }
             }
