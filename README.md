@@ -532,6 +532,7 @@
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1300-critical-connections-in-a-network](https://github.com/P-SUBHAM/LeetCode/tree/master/1300-critical-connections-in-a-network) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -793,6 +794,7 @@
 | [0684-redundant-connection](https://github.com/P-SUBHAM/LeetCode/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/P-SUBHAM/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/P-SUBHAM/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [1300-critical-connections-in-a-network](https://github.com/P-SUBHAM/LeetCode/tree/master/1300-critical-connections-in-a-network) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/1558-course-schedule-iv) |
 | [1916-find-center-of-star-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/1916-find-center-of-star-graph) |
@@ -871,4 +873,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/P-SUBHAM/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Biconnected Component
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/P-SUBHAM/LeetCode/tree/master/1300-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
