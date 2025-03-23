@@ -32,7 +32,8 @@ public:
         return prev[m];
     }
     int longestCommonSubsequence(string text1, string text2) {
-        return iterDP(text1,text2);
+        // return iterDP(text1,text2);
+        return dp2arr(text1,text2);
     }
 };
 
