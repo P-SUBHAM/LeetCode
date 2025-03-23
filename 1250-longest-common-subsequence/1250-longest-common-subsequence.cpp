@@ -1,3 +1,26 @@
+// Approach 3: Iterative DP
+class Solution {
+public:
+    int iterDP(string text1, string text2) {
+        int n = text1.size(), m = text2.size();
+        vector<vector<int>> dp(n+1,vector<int>(m+1,0)); // base case initialization
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+                if(text1[i-1] == text2[j-1]) {
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                }
+                else {
+                    dp[i][j] = max(dp[i-1][j],dp[i][j-1]);
+                }
+            }
+        }
+        return dp[n][m];
+    }
+    int longestCommonSubsequence(string text1, string text2) {
+        return iterDP(text1,text2);
+    }
+};
+
 // Approach 1: Memoization 2D array
 /* start from both end, f(i,j) = longest common subsequence between w1[:i] &w2[:j]
 [:i][:j] = (i==j) + [:i-1][:j-1] or max([:i][:j-1],[:i-1]][:j])
@@ -5,7 +28,7 @@ if i,j th char match count for i-1,j-1 else exclude once i or j
 */
 
 // Approach 2: Find the lcs string
-class Solution {
+class Solution2 {
 public:
     int longestCommonSubsequence(string text1, string text2) {
         int n1 = text1.size(), n2 = text2.size();
