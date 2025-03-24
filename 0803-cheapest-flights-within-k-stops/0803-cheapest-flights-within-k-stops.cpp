@@ -18,8 +18,8 @@ public:
             for(auto nei: adj[node]) {
                 // node - nei
                 int u = node, v = nei[0], wt = nei[1];
-                if(d + wt < dist[v] && stops <= k) {
-                    dist[v] = d + wt;
+                if(d + wt < dist[v] && stops <= k) { // here dist or d will works as actually d is what is needed below but dist cause over repeat and hence tle
+                    dist[v] = d + wt; // check d vs dist[u]; // imp to use d here
                     qu.push({stops+1,dist[v],v});
                 }
             }
