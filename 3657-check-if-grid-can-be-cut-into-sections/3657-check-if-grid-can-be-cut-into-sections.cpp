@@ -1,3 +1,5 @@
+// Approach 1: SweepLine Algorithm
+// break into x and y interval, then break each interval into st and en, count if at any end interval there is no ongoing event
 class Solution {
 public:
     vector<vector<int>> extractInterval(int n, vector<vector<int>>& rectangles, bool isX) {
