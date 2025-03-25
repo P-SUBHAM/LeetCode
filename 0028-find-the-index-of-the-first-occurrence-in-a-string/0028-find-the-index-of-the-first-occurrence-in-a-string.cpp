@@ -1,5 +1,54 @@
-// Approach 3.1 Rabin Karp
+// practice
 class Solution {
+public:
+    vector<int> prefix_func(string &s) {
+        int n = s.size();
+        int i = 1, j = 0;
+        vector<int> prefix(n,0);
+        while(i < n) {
+            j = prefix[i-1];
+            while(j > 0 && s[i] != s[j]) {
+                j = prefix[j-1];
+            }
+            if(s[i] == s[j]) {
+                j++;
+            }
+            prefix[i] = j;
+            i++;
+        }
+        return prefix;
+    }
+    int strStr(string haystack, string needle) {
+        vector<int> prefix = prefix_func(needle);
+        cout<<"prefix:"; for(auto it: prefix) cout<<it<<" "; cout<<endl;
+        int n = haystack.size(), m = needle.size();
+        vector<int> occur;
+        int i = 0, j = 0;
+        while(i < n) {
+            if(haystack[i] == needle[j]) {
+                i++; j++;
+            }
+            else {
+                if(j > 0) {
+                    j = prefix[j-1];
+                }
+                else {
+                    i++;
+                }
+            }
+            if(j == m) {
+                occur.push_back(i - m);
+                j = prefix[j-1];
+            }
+        }
+        if(occur.size() > 0) return occur[0];
+        return -1;
+    }
+};
+
+
+// Approach 3.1 Rabin Karp
+class Solution3_1 {
 public:
     int mod = 1e9+7;
     int p = 31;
