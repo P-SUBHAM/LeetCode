@@ -139,6 +139,7 @@
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/P-SUBHAM/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/P-SUBHAM/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3721-count-mentions-per-user](https://github.com/P-SUBHAM/LeetCode/tree/master/3721-count-mentions-per-user) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/P-SUBHAM/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Greedy
 |  |
@@ -491,6 +492,7 @@
 | [3227-find-missing-and-repeated-values](https://github.com/P-SUBHAM/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/P-SUBHAM/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3721-count-mentions-per-user](https://github.com/P-SUBHAM/LeetCode/tree/master/3721-count-mentions-per-user) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Linked List
 |  |
 | ------- |
@@ -718,6 +720,7 @@
 | [2792-neighboring-bitwise-xor](https://github.com/P-SUBHAM/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Merge Sort
 |  |
 | ------- |
