@@ -1,3 +1,61 @@
+// Approach 3: Iterative DP
+class Solution {
+public:
+    int iterDP(string text1, string text2) {
+        int n = text1.size(), m = text2.size();
+        vector<vector<int>> dp(n+1,vector<int>(m+1,0)); // base case initialization
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+                if(text1[i-1] == text2[j-1]) {
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                }
+                else {
+                    dp[i][j] = max(dp[i-1][j],dp[i][j-1]);
+                }
+            }
+        }
+        return dp[n][m];
+    }
+    int dp2arr(string text1, string text2) {
+        int n = text1.size(), m = text2.size();
+        vector<int> prev(m+1,0);// base case initialization
+        vector<int> curr(m+1);
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+                if(text1[i-1] == text2[j-1])
+                    curr[j] = 1 + prev[j-1];
+                else 
+                    curr[j] = max(prev[j],curr[j-1]);
+            }
+            prev = curr;
+        }  
+        return prev[m];
+    }
+    int dp1arr(string text1, string text2) {
+        int n = text1.size(), m = text2.size();
+        vector<int> dp(m+1, 0); // Base case initialization
+
+        for (int i = 1; i <= n; i++) {
+            int prevVal = 0; // Temp var to store the prev dp[j-1] value for each row
+            for (int j = 1; j <= m; j++) {
+                int temp = dp[j];  // Store the curr dp[j] before updating it
+                if (text1[i-1] == text2[j-1]) {
+                    dp[j] = 1 + prevVal; // Use the prev (dp[j-1] of the previous row)
+                } else {
+                    dp[j] = max(dp[j], dp[j-1]); // Curr row value, using dp[j],dp[j-1]
+                }
+                prevVal = temp; // Update prevVal to store dp[j] of the curriteration
+            }
+        }
+
+        return dp[m]; // The last element in dp will contain the result
+    }
+    int longestCommonSubsequence(string text1, string text2) {
+        // return iterDP(text1,text2);
+        return dp2arr(text1,text2);
+    }
+};
+
 // Approach 1: Memoization 2D array
 /* start from both end, f(i,j) = longest common subsequence between w1[:i] &w2[:j]
 [:i][:j] = (i==j) + [:i-1][:j-1] or max([:i][:j-1],[:i-1]][:j])
@@ -5,7 +63,7 @@ if i,j th char match count for i-1,j-1 else exclude once i or j
 */
 
 // Approach 2: Find the lcs string
-class Solution {
+class Solution2 {
 public:
     int longestCommonSubsequence(string text1, string text2) {
         int n1 = text1.size(), n2 = text2.size();
