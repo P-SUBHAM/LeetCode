@@ -20,7 +20,7 @@ public:
             return dp[i][j] = dpf(s,p,i+1,j+1);
         }
         if(p[j] == '*') {
-            return dp[i][j] = dpf(s,p,i,j+1)||dpf(s,p,i+1,j+1)||dpf(s,p,i+1,j);
+            return dp[i][j] = dpf(s,p,i,j+1)||dpf(s,p,i+1,j);
         }
         return false;
     }
