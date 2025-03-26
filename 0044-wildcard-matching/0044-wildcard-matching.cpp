@@ -1,4 +1,40 @@
+// DP 1 array : optimisation tabular
 class Solution {
+public:
+    bool isMatch(string s, string p) {
+        int n1 = s.size(), n2 = p.size();
+        vector<int> dp(n2+1);
+        dp[n2] = 1;
+        for(int j = n2-1; j >= 0; j--) {
+            if(p[j] == '*') {
+                dp[j] = dp[j+1];
+            }
+            else {
+                dp[j] = false;
+            }
+        }
+        for(int i = n1-1; i>= 0; i--) {
+            int nextj1 = dp[n2];
+            dp[n2] = false;
+            for(int j = n2-1; j >= 0; j--) {
+                int temp = dp[j]; //nextj
+                if(s[i] == p[j] or p[j] == '?') {
+                    dp[j] = nextj1;
+                }
+                else if(p[j] == '*') {
+                    dp[j] = dp[j+1] || dp[j];
+                }
+                else {
+                    dp[j] = false;
+                }
+                nextj1 = temp;
+            }
+        }
+        return dp[0];
+    }
+};
+
+class Solution21 {
 public:
 // if si==pj||pj=='?' dpij = dpi+1j+1 // 
     bool isMatch(string s, string p) {
