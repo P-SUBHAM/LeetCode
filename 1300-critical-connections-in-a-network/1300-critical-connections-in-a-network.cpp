@@ -12,7 +12,8 @@ public:
                 tarzanBridge(adj, nei, node, tin, low, bridges);
 
                 // if nei cant be visited faster than current parent node, that means this must be a bridge to next scc as p has to come first
-                if(low[nei] > tin[node]) { // only > and ! >= bcs 
+                // > for 1 extra bridge that we need to cross to reach nei, = means same comp
+                if(low[nei] > tin[node]) { // only > and ! >= bcs 0-1-2-0 all will have 0 as low but same comp and not bridge
                     // cout<<node<<"-"<<nei<<endl;
                     bridges.push_back({node,nei});
                 }
