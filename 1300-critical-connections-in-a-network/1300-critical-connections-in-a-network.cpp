@@ -10,17 +10,14 @@ public:
             if(tin[nei] == -1) {//not vis then do dfs of neighbour
                 // node -- nei
                 tarzanBridge(adj, nei, node, tin, low, bridges);
-                low[node] = min(low[node],low[nei]);
 
                 // if nei cant be visited faster than current parent node, that means this must be a bridge to next scc as p has to come first
-                if(low[nei] > tin[node]) {
+                if(low[nei] > tin[node]) { // only > and ! >= bcs 
                     // cout<<node<<"-"<<nei<<endl;
                     bridges.push_back({node,nei});
                 }
             }
-            else { // nei not a bridge as already visited
-                low[node] = min(low[node],low[nei]);
-            }
+            low[node] = min(low[node],low[nei]); // to be updated either way(!! and skipped for parent)
         }
     }
 
