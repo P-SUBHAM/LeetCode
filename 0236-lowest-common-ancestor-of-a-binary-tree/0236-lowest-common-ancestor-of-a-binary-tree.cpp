@@ -19,7 +19,7 @@ public:
             return right;
         if(right == NULL)
             return left;
-        return root;
+        return root; // means one element found on left and right
     }
 };
 
