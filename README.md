@@ -92,6 +92,7 @@
 | [1491-number-of-times-binary-string-is-prefix-aligned](https://github.com/P-SUBHAM/LeetCode/tree/master/1491-number-of-times-binary-string-is-prefix-aligned) |
 | [1524-string-matching-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/P-SUBHAM/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1755-defuse-the-bomb](https://github.com/P-SUBHAM/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/P-SUBHAM/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1826-maximum-xor-with-an-element-from-array) |
@@ -221,6 +222,7 @@
 | [1170-shortest-common-supersequence](https://github.com/P-SUBHAM/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/P-SUBHAM/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/P-SUBHAM/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2176-parallel-courses-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/2176-parallel-courses-iii) |
@@ -368,6 +370,7 @@
 | [1524-string-matching-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/P-SUBHAM/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/P-SUBHAM/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/P-SUBHAM/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
