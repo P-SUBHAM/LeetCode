@@ -47,6 +47,7 @@
 | [0307-range-sum-query-mutable](https://github.com/P-SUBHAM/LeetCode/tree/master/0307-range-sum-query-mutable) |
 | [0312-burst-balloons](https://github.com/P-SUBHAM/LeetCode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/P-SUBHAM/LeetCode/tree/master/0322-coin-change) |
+| [0403-frog-jump](https://github.com/P-SUBHAM/LeetCode/tree/master/0403-frog-jump) |
 | [0407-trapping-rain-water-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0419-battleships-in-a-board](https://github.com/P-SUBHAM/LeetCode/tree/master/0419-battleships-in-a-board) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -209,6 +210,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/P-SUBHAM/LeetCode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/P-SUBHAM/LeetCode/tree/master/0322-coin-change) |
+| [0403-frog-jump](https://github.com/P-SUBHAM/LeetCode/tree/master/0403-frog-jump) |
 | [0472-concatenated-words](https://github.com/P-SUBHAM/LeetCode/tree/master/0472-concatenated-words) |
 | [0494-target-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
