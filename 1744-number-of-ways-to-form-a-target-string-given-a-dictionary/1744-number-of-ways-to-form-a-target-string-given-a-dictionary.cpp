@@ -21,6 +21,25 @@ public:
         }
         return dp[i][j] = (1LL*take+notTake)%mod;
     }
+    int dpfIter2arr(string &target, int i, int n,
+    vector<map<char,int>> &charFreq, int j, int m, vector<vector<int>> &dpNot) {
+        vector<int> next(m+1,1);
+        vector<int> curr(m+1);
+        long long mod = 1e9+7;
+        for(int i = n-1; i >= 0; i--) {
+            curr[m] = 0; char ch = target[i];
+            for(int j = m-1; j >= 0; j--) {
+                int take = 0, notTake = 0;
+                if(charFreq[j][ch] > 0) {
+                    take = (1LL*charFreq[j][ch]*next[j+1])%mod;
+                }
+                notTake = (1LL*curr[j+1])%mod;
+                curr[j] = (1LL*take+notTake)%mod;
+            }
+            next = curr;
+        }
+        return next[0];
+    }
     int numWays(vector<string>& words, string target) {
         int m = words[0].size();
         int n = target.size();
@@ -35,7 +54,8 @@ public:
             }
         }
         int ans = 0;
-        ans = dpf(target,0,n,charFreq,0,m,dp);
+        // ans = dpf(target,0,n,charFreq,0,m,dp);
+        ans = dpfIter2arr(target,0,n,charFreq,0,m,dp);
         return ans;
     }
 };
