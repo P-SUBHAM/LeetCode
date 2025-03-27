@@ -6,7 +6,7 @@ public:
         }
     };
     
-    struct Trie {
+    struct BinaryBitTrie {
         vector<bool> getBinaryBits(int x) {
             vector<bool> s;
             for(int i = 31; i >= 0; i--) {
@@ -72,7 +72,7 @@ public:
         }
         sort(nums.begin(),nums.end());
         sort(offlineQuery.begin(),offlineQuery.end(),compm());
-        Trie trie;
+        BinaryBitTrie trie;
         int j = 0;
         for(auto query: offlineQuery) {
             int x = query[0], m = query[1], ind = query[2];
