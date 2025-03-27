@@ -10,7 +10,7 @@ public:
             int pos = stones[i];
             for(auto jumpl: dp[pos]) {
                 for(int l = jumpl-1; l <= jumpl+1; l++) {
-                    if(l <= 0) continue;
+                    // if(l <= 0) continue;
                     int nextpos = pos + l;
                     if(dp.find(nextpos) != dp.end()) {
                         dp[nextpos].insert(l);
