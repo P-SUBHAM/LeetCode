@@ -10,15 +10,17 @@ public:
             if(tin[nei] == -1) {//not vis then do dfs of neighbour
                 // node -- nei
                 tarzanBridge(adj, nei, node, tin, low, bridges);
+                low[node] = min(low[node],low[nei]);
 
                 // if nei cant be visited faster than current parent node, that means this must be a bridge to next scc as p has to come first
-                // > for 1 extra bridge that we need to cross to reach nei, = means same comp
-                if(low[nei] > tin[node]) { // only > and ! >= bcs 0-1-2-0 all will have 0 as low but same comp and not bridge
+                if(low[nei] > tin[node]) { // use articulation: if(low[nei] >= tin[src] && parent != -1) {  artPt[src] = 1;}
                     // cout<<node<<"-"<<nei<<endl;
                     bridges.push_back({node,nei});
                 }
             }
-            low[node] = min(low[node],low[nei]); // to be updated either way(!! and skipped for parent)
+            else { // nei not a bridge as already visited
+                low[node] = min(low[node],low[nei]); // incase of articulation use tin[nei], for tarzan low[nei] in case of visited neighbor
+            }
         }
     }
 
