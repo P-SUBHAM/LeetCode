@@ -159,6 +159,7 @@
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/P-SUBHAM/LeetCode/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
+| [0768-partition-labels](https://github.com/P-SUBHAM/LeetCode/tree/master/0768-partition-labels) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 | [1502-construct-k-palindrome-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
@@ -279,6 +280,7 @@
 | [0496-next-greater-element-i](https://github.com/P-SUBHAM/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/P-SUBHAM/LeetCode/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/P-SUBHAM/LeetCode/tree/master/0721-accounts-merge) |
+| [0768-partition-labels](https://github.com/P-SUBHAM/LeetCode/tree/master/0768-partition-labels) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -366,6 +368,7 @@
 | [0472-concatenated-words](https://github.com/P-SUBHAM/LeetCode/tree/master/0472-concatenated-words) |
 | [0516-longest-palindromic-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0721-accounts-merge](https://github.com/P-SUBHAM/LeetCode/tree/master/0721-accounts-merge) |
+| [0768-partition-labels](https://github.com/P-SUBHAM/LeetCode/tree/master/0768-partition-labels) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0952-word-subsets](https://github.com/P-SUBHAM/LeetCode/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -436,6 +439,7 @@
 | [0443-string-compression](https://github.com/P-SUBHAM/LeetCode/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0768-partition-labels](https://github.com/P-SUBHAM/LeetCode/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/P-SUBHAM/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
