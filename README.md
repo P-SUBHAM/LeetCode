@@ -471,6 +471,7 @@
 | [0407-trapping-rain-water-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0480-sliding-window-median](https://github.com/P-SUBHAM/LeetCode/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/P-SUBHAM/LeetCode/tree/master/0621-task-scheduler) |
+| [0744-network-delay-time](https://github.com/P-SUBHAM/LeetCode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/P-SUBHAM/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/P-SUBHAM/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
@@ -584,6 +585,7 @@
 | [0684-redundant-connection](https://github.com/P-SUBHAM/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/P-SUBHAM/LeetCode/tree/master/0721-accounts-merge) |
+| [0744-network-delay-time](https://github.com/P-SUBHAM/LeetCode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/P-SUBHAM/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/P-SUBHAM/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/P-SUBHAM/LeetCode/tree/master/0820-find-eventual-safe-states) |
@@ -617,6 +619,7 @@
 | [0684-redundant-connection](https://github.com/P-SUBHAM/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/P-SUBHAM/LeetCode/tree/master/0721-accounts-merge) |
+| [0744-network-delay-time](https://github.com/P-SUBHAM/LeetCode/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0801-is-graph-bipartite](https://github.com/P-SUBHAM/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/P-SUBHAM/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -881,6 +884,7 @@
 | ------- |
 | [0210-course-schedule-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0684-redundant-connection](https://github.com/P-SUBHAM/LeetCode/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/P-SUBHAM/LeetCode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/P-SUBHAM/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/P-SUBHAM/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/P-SUBHAM/LeetCode/tree/master/0820-find-eventual-safe-states) |
@@ -914,6 +918,7 @@
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/P-SUBHAM/LeetCode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/P-SUBHAM/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/P-SUBHAM/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
