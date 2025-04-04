@@ -10,9 +10,9 @@
  * };
  */
 
-class Solution {
+class Solution2 {
 public:
-    // Approach 1: Return dist of deepest leaf node, and lowest ancestor for it
+    // Approach 2: Return dist of deepest leaf node, and lowest ancestor for it
     // {node,dist}
     pair<TreeNode*,int> treeRec(TreeNode* root) {
         if(root == NULL) return {NULL,0};
@@ -29,5 +29,29 @@ public:
     TreeNode* lcaDeepestLeaves(TreeNode* root) {
         pair<TreeNode*,int> ans = treeRec(root);
         return ans.first;
+    }
+};
+
+class Solution {
+public:
+    int maxd = 0;
+    TreeNode* leaf = NULL;
+    int help(TreeNode* root,int d) {
+        if(root==NULL) return d;
+        
+        int l = help(root->left,d+1);
+        int r = help(root->right,d+1);
+        cout<<root->val<<" "<<l<<" "<<r<<"\n";
+        if(l==r) {
+            if(l >= maxd) {
+                leaf = root;
+                maxd = l;
+            }
+        }
+        return max(l,r);
+    }
+    TreeNode* lcaDeepestLeaves(TreeNode* root) {
+        help(root,0);
+        return leaf;
     }
 };
