@@ -296,6 +296,7 @@
 | [0952-word-subsets](https://github.com/P-SUBHAM/LeetCode/tree/master/0952-word-subsets) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1160-letter-tile-possibilities](https://github.com/P-SUBHAM/LeetCode/tree/master/1160-letter-tile-possibilities) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/P-SUBHAM/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1364-tuple-with-same-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -600,6 +601,7 @@
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/P-SUBHAM/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1300-critical-connections-in-a-network](https://github.com/P-SUBHAM/LeetCode/tree/master/1300-critical-connections-in-a-network) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
@@ -635,6 +637,7 @@
 | [0820-find-eventual-safe-states](https://github.com/P-SUBHAM/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/P-SUBHAM/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -736,6 +739,7 @@
 | [1021-distribute-coins-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/P-SUBHAM/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
@@ -758,6 +762,7 @@
 | [1021-distribute-coins-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/P-SUBHAM/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Trie
