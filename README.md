@@ -105,6 +105,7 @@
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/P-SUBHAM/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/P-SUBHAM/LeetCode/tree/master/2145-grid-game) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
@@ -426,6 +427,7 @@
 | [1160-letter-tile-possibilities](https://github.com/P-SUBHAM/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/P-SUBHAM/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/P-SUBHAM/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/P-SUBHAM/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -525,6 +527,7 @@
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/P-SUBHAM/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -786,6 +789,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1487-cinema-seat-allocation](https://github.com/P-SUBHAM/LeetCode/tree/master/1487-cinema-seat-allocation) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/2478-longest-nice-subarray) |
@@ -945,6 +949,7 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/P-SUBHAM/LeetCode/tree/master/0062-unique-paths) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -958,6 +963,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
 ## Number Theory
 |  |
