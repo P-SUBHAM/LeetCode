@@ -50,6 +50,7 @@
 | [0368-largest-divisible-subset](https://github.com/P-SUBHAM/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0403-frog-jump](https://github.com/P-SUBHAM/LeetCode/tree/master/0403-frog-jump) |
 | [0407-trapping-rain-water-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0407-trapping-rain-water-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/P-SUBHAM/LeetCode/tree/master/0419-battleships-in-a-board) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0454-4sum-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0454-4sum-ii) |
@@ -225,6 +226,7 @@
 | [0322-coin-change](https://github.com/P-SUBHAM/LeetCode/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/P-SUBHAM/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0403-frog-jump](https://github.com/P-SUBHAM/LeetCode/tree/master/0403-frog-jump) |
+| [0416-partition-equal-subset-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0472-concatenated-words](https://github.com/P-SUBHAM/LeetCode/tree/master/0472-concatenated-words) |
 | [0494-target-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
