@@ -1,10 +1,11 @@
 // Approach 1: Digit dp
+// use tight to find app limit, if s.size() is bigger than nums, return 0
 class Solution {
 public:
     long long dp[16][2]; // 10^15 has 16 digits
     long long digitDPf(string &nums, int idx, bool tight, string &s, int &limit) {
-        // cout<<"i:"<<idx<<" "<<nums<<"\n";
-        if(idx > nums.size()) return 0;
+        cout<<"i:"<<idx<<" "<<nums<<"\n";
+        if(idx > nums.size()) return 0; // to handle case when nums < s
         if(nums.size()-idx == s.size()) { // end base case
             if(!tight) return 1;
             return nums.substr(idx,s.size()) >= s;
