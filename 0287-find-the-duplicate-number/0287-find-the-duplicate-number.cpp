@@ -5,9 +5,9 @@ public:
         int n = nums.size();
         for(int i = 0; i < n; i++) {
             int x = abs(nums[i]);
-            if(x >= n) {
-                return n;
-            }
+            // if(x >= n) {
+            //     return n;
+            // }
             if(nums[x] < 0) {
                 return x;
             }
