@@ -252,6 +252,7 @@
 | [2176-parallel-courses-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/2176-parallel-courses-iii) |
 | [2262-solving-questions-with-brainpower](https://github.com/P-SUBHAM/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2562-count-ways-to-build-good-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/P-SUBHAM/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Sliding Window
 |  |
@@ -325,6 +326,7 @@
 | [3227-find-missing-and-repeated-values](https://github.com/P-SUBHAM/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/P-SUBHAM/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/P-SUBHAM/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3548-find-the-count-of-good-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/P-SUBHAM/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/P-SUBHAM/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -416,6 +418,7 @@
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/P-SUBHAM/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/P-SUBHAM/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/P-SUBHAM/LeetCode/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/P-SUBHAM/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -524,6 +527,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/P-SUBHAM/LeetCode/tree/master/0013-roman-to-integer) |
+| [0060-permutation-sequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/P-SUBHAM/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/P-SUBHAM/LeetCode/tree/master/0070-climbing-stairs) |
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
@@ -547,8 +551,11 @@
 | [2610-closest-prime-numbers-in-range](https://github.com/P-SUBHAM/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/P-SUBHAM/LeetCode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/P-SUBHAM/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [2998-count-symmetric-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/2998-count-symmetric-integers) |
 | [3001-apply-operations-to-maximize-score](https://github.com/P-SUBHAM/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/P-SUBHAM/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3548-find-the-count-of-good-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/P-SUBHAM/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3721-count-mentions-per-user](https://github.com/P-SUBHAM/LeetCode/tree/master/3721-count-mentions-per-user) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
@@ -598,6 +605,7 @@
 | [0129-sum-root-to-leaf-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
 | [0210-course-schedule-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -635,6 +643,7 @@
 | [0127-word-ladder](https://github.com/P-SUBHAM/LeetCode/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
 | [0210-course-schedule-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/P-SUBHAM/LeetCode/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/P-SUBHAM/LeetCode/tree/master/0322-coin-change) |
@@ -744,6 +753,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0173-binary-search-tree-iterator](https://github.com/P-SUBHAM/LeetCode/tree/master/0173-binary-search-tree-iterator) |
+| [0226-invert-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -768,6 +778,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0173-binary-search-tree-iterator](https://github.com/P-SUBHAM/LeetCode/tree/master/0173-binary-search-tree-iterator) |
+| [0226-invert-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -827,6 +838,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/P-SUBHAM/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/P-SUBHAM/LeetCode/tree/master/0044-wildcard-matching) |
+| [0060-permutation-sequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
 | [0233-number-of-digit-one](https://github.com/P-SUBHAM/LeetCode/tree/master/0233-number-of-digit-one) |
@@ -964,6 +976,7 @@
 | ------- |
 | [0062-unique-paths](https://github.com/P-SUBHAM/LeetCode/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3548-find-the-count-of-good-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -979,6 +992,8 @@
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
+| [2998-count-symmetric-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/2998-count-symmetric-integers) |
+| [3548-find-the-count-of-good-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 ## Number Theory
 |  |
 | ------- |
