@@ -543,6 +543,7 @@
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/P-SUBHAM/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2050-count-good-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/2050-count-good-numbers) |
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
 | [2155-find-missing-observations](https://github.com/P-SUBHAM/LeetCode/tree/master/2155-find-missing-observations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -842,6 +843,7 @@
 | [0206-reverse-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
 | [0233-number-of-digit-one](https://github.com/P-SUBHAM/LeetCode/tree/master/0233-number-of-digit-one) |
+| [2050-count-good-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/2050-count-good-numbers) |
 ## Counting
 |  |
 | ------- |
