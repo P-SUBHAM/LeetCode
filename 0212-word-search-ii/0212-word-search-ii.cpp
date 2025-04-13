@@ -6,22 +6,23 @@
 struct Trie {
     struct Node{
         int end;
-        unordered_map<char,Node*> next;
+        // unordered_map<char,Node*> next;
+        Node *next[26] = {};
     };
     Node *root = new Node();
     void insert(string s) {
         auto it = root;
         for(char c: s) {
-            if(it->next[c]==0) it->next[c] = new Node();
-            it = it->next[c];
+            if(it->next[c-'a']==NULL) it->next[c-'a'] = new Node();
+            it = it->next[c-'a'];
         }
         it->end++; // increases one end here
     }
     bool search(string s) {
         auto it = root;
         for(char c: s) {
-            if(it->next[c]==0) return false;
-            it = it->next[c];
+            if(it->next[c-'a']==0) return false;
+            it = it->next[c-'a'];
         }
         return it->end > 0; // check 1 or more end
     }
@@ -37,12 +38,12 @@ public:
         int m = board.size(), n = board[0].size();
         unordered_set<string> ans; vector<vector<bool>> vis(m,vector<bool>(n,false));
         function<void(int r,int c,Trie::Node* node, string word)> dfs = [&](int r,int c,Trie::Node* node, string word) {
-            if(r<0||c<0||r>=m||c>=n||vis[r][c]||node->next[board[r][c]]==0) {
+            if(r<0||c<0||r>=m||c>=n||vis[r][c]||node->next[board[r][c]-'a']==0) {
                 return;
             }
             char ch = board[r][c];
             vis[r][c] = true;
-            node = node->next[ch];
+            node = node->next[ch-'a'];
             word += ch;
             if(node->end) ans.insert(word);
             dfs(r+1,c,node,word);
