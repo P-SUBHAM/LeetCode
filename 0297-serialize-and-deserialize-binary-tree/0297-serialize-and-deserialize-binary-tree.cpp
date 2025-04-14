@@ -11,7 +11,7 @@ class Codec {
 public:
     // Use Preorder traversal
     // Encodes a tree to a single string.
-    int ans = 0;
+    int ans = 1;
     string serialize(TreeNode* root) {
         if(root == NULL) {
             return "#";
