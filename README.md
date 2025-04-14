@@ -606,6 +606,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/P-SUBHAM/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -644,6 +645,7 @@
 | [0112-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0112-path-sum) |
 | [0127-word-ladder](https://github.com/P-SUBHAM/LeetCode/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/P-SUBHAM/LeetCode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/P-SUBHAM/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/P-SUBHAM/LeetCode/tree/master/0279-perfect-squares) |
@@ -933,6 +935,7 @@
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/P-SUBHAM/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0684-redundant-connection](https://github.com/P-SUBHAM/LeetCode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/P-SUBHAM/LeetCode/tree/master/0744-network-delay-time) |
@@ -955,6 +958,7 @@
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/P-SUBHAM/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/P-SUBHAM/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/1558-course-schedule-iv) |
