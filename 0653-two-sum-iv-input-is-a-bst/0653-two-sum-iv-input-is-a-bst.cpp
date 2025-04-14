@@ -9,6 +9,8 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+// Approach 1: Using BST iterator
 class Solution {
 public:
     struct bstIteratorLeft {
@@ -56,15 +58,9 @@ public:
         bstIteratorLeft left(root);
         bstIteratorRight right(root);
         while(*left < *right) {
-            if(*left + *right == k) {
-                return true;
-            }
-            else if(*left + *right < k) {
-                ++left;
-            }
-            else {
-                right--;
-            }
+            if(*left + *right == k) return true;
+            else if(*left + *right < k)  ++left;
+            else  right--;
         }
         return false;
     }
