@@ -8,7 +8,7 @@ public:
         col[src] = colc;
         for(auto nei: adj[src]) {
             if(col[nei]==-1) { // not vis ok - col it
-                dfscolour(nei,col[src]^1);
+                dfscolour(nei,col[src]^1); // set col[par]^1
             }
             else if(col[nei]!=col[src]^1) { // already col with othr col not bipart
                 bipart = false;
@@ -23,7 +23,7 @@ public:
             int node = qu.front(); qu.pop();
             for (int nei : adj[node]) {
                 if (col[nei] == -1) {
-                    col[nei] = 1^col[node];
+                    col[nei] = 1^col[node]; // set col[par]^1
                     qu.push(nei);
                 } else if (col[nei] != 1^col[node]) {
                     bipart = false;
