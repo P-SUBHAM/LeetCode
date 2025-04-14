@@ -16,17 +16,11 @@ public:
         if(root == NULL) {
             return "#";
         }
-        bool flag = false;
-        if(ans == 0) {
-            flag = true;
-        }
-        ans++;
+        bool flag = false; if(ans == 0) flag = true;ans++;
         string ser = to_string(root->val) + "," 
         + serialize(root->left) + "," 
         + serialize(root->right);
-        if(flag == true) {
-          cout<<ser<<"\n";
-        }
+        if(flag == true) cout<<ser<<"\n";
         return ser;
     }
 
