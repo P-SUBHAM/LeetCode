@@ -158,6 +158,7 @@
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/P-SUBHAM/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3643-zero-array-transformation-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3643-zero-array-transformation-ii) |
+| [3646-sum-of-good-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/3646-sum-of-good-subsequences) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/P-SUBHAM/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/P-SUBHAM/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/P-SUBHAM/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
@@ -257,6 +258,7 @@
 | [2262-solving-questions-with-brainpower](https://github.com/P-SUBHAM/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2562-count-ways-to-build-good-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3646-sum-of-good-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/3646-sum-of-good-subsequences) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/P-SUBHAM/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Sliding Window
 |  |
@@ -335,6 +337,7 @@
 | [3548-find-the-count-of-good-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/P-SUBHAM/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3646-sum-of-good-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/3646-sum-of-good-subsequences) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/P-SUBHAM/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/P-SUBHAM/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Matrix
