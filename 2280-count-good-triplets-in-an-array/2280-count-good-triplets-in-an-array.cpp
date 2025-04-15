@@ -1,3 +1,6 @@
+// Approach 2: fenwick tree
+// point update, range query (default behavior)
+// range update, point query (diff array behavior) ftree.update(i+1,x-ftree.query(i)); 
 class Solution {
 public:
     struct FenwickTree { // ind 1 to n
