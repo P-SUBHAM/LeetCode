@@ -1,5 +1,49 @@
-//Approach 1: Segment tree
 class Solution {
+public:
+    struct FenwickTree { // ind 1 to n
+        vector<long long> fenw;
+        int n;
+        FenwickTree(int n_):n(n_) {fenw.resize(n+3,0);}
+        long long query(int ind) { // prefix sum 1..ind
+            long long sum = 0;
+            for(; ind > 0; ind -= ind&-ind) {
+                sum += fenw[ind];
+            }
+            return sum;
+        }
+        void update(int ind, int diff) { // point update
+            for(; ind <= n; ind += ind&-ind) {
+                fenw[ind] += diff;
+            }
+        }
+    };
+    long long goodTriplets(vector<int>& nums1, vector<int>& nums2) {
+        int n = nums1.size();
+        unordered_map<int,int> mp2;
+        for(int i = 0; i < n; i++) {
+            mp2[nums2[i]] = i;
+        }
+        FenwickTree ftree(n);
+        ftree.update(mp2[nums1[0]]+1,1);
+        long long ans = 0;
+        for(int i1 = 1; i1 < n; i1++) {
+            int x = nums1[i1];
+            int i2 = mp2[x];
+            long long commleft = ftree.query(i2+1);
+            long long uncommleft = i1 - commleft;
+            long long commright = (n-1)-(i2+1)+1 - uncommleft;
+            ans += commleft * commright;
+            ftree.update(i2+1,1);
+        }
+        return ans;
+    }
+};
+
+//Approach 1: Segment tree
+/* see keep adding the index in nums2 into segtree(by adding 1 at the index) to denote that 
+while iterating in nums1 all these index of nums2 element are seen, and sum of elemenets in the range l,r of nums2 says how many elemenets of nums2 have already been seen by nums1 i.e on left of i1 how many elements are matching in the range(based on mid no index in nums2) for nums2.
+*/
+class Solution1 {
 public:
     struct SegmentTree {
         vector<long long> tree;
