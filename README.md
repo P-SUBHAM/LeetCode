@@ -120,6 +120,7 @@
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/P-SUBHAM/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2262-solving-questions-with-brainpower](https://github.com/P-SUBHAM/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/P-SUBHAM/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2341-count-prefixes-of-a-given-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2341-count-prefixes-of-a-given-string) |
@@ -199,6 +200,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/P-SUBHAM/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/P-SUBHAM/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2665-minimum-time-to-repair-cars](https://github.com/P-SUBHAM/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/2690-house-robber-iv) |
 | [3643-zero-array-transformation-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3643-zero-array-transformation-ii) |
@@ -488,6 +490,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -849,6 +852,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0148-sort-list) |
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Recursion
 |  |
 | ------- |
@@ -943,10 +947,12 @@
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/P-SUBHAM/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Segment Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/P-SUBHAM/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Graph
 |  |
 | ------- |
@@ -1027,6 +1033,7 @@
 |  |
 | ------- |
 | [0931-maximum-frequency-stack](https://github.com/P-SUBHAM/LeetCode/tree/master/0931-maximum-frequency-stack) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/P-SUBHAM/LeetCode/tree/master/2434-design-a-number-container-system) |
 ## Binary Search Tree
 |  |
