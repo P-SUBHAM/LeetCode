@@ -4,19 +4,17 @@ public:
     int src, int dst, int k) {
         int inf = 1e9;
         vector<int> dist(n,inf); dist[src] = 0;
-        vector<int> tempdist;
+        vector<int> tempdist = dist;
         for(int t = 0; t < k+1; t++) {
-            tempdist = dist;
-            // for(auto it: tempdist) cout<<it<<" "; cout<<endl;
             for(auto edge: flights) {
                 int u = edge[0], v = edge[1], w = edge[2];
                 if(dist[u] == inf) continue;
-                tempdist[v] = min(tempdist[v],dist[u]+w);
+                if(dist[u]+w < tempdist[v]) {
+                    tempdist[v] = dist[u]+w;
+                }
             }
-            
             dist = tempdist;
         }
-        // for(auto it: tempdist) cout<<it<<" "; cout<<endl;
         return (dist[dst]==inf)?-1:dist[dst];
     }
 };
