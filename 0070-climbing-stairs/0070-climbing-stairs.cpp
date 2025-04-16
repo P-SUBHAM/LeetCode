@@ -1,14 +1,14 @@
 class Solution {
 public:
+    unordered_map<int,int> dp;
+    int dpf(int i, int n) {
+        if(i > n) return 0;
+        if(i == n) return 1;
+        if(dp.count(i) != 0) return dp[i];
+        int ans = dpf(i+1,n) + dpf(i+2,n);
+        return dp[i] = ans;
+    }
     int climbStairs(int n) {
-        // dp[i] = dp[i+1] + dp[i+2];
-        int dpi1 = 1, dpi2 = 1, dpi = 2;
-        for(int i = n-2; i >= 0; i--) {
-            // cout<<i<<":"<<dpi1<<dpi2<<endl;
-            dpi = dpi1 + dpi2;
-            dpi2 = dpi1;
-            dpi1 = dpi;
-        }
-        return dpi1;
+        return dpf(0,n);
     }
 };

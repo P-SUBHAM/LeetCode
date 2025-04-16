@@ -1,5 +1,26 @@
-// Do bfs traversal relaxing dist
 class Solution {
+public:
+    int findCheapestPrice(int n, vector<vector<int>>& flights, 
+    int src, int dst, int k) {
+        int inf = 1e9;
+        vector<int> dist(n,inf); dist[src] = 0;
+        vector<int> tempdist = dist;
+        for(int t = 0; t < k+1; t++) {
+            for(auto edge: flights) {
+                int u = edge[0], v = edge[1], w = edge[2];
+                if(dist[u] == inf) continue;
+                if(dist[u]+w < tempdist[v]) {
+                    tempdist[v] = dist[u]+w;
+                }
+            }
+            dist = tempdist;
+        }
+        return (dist[dst]==inf)?-1:dist[dst];
+    }
+};
+
+// Do bfs traversal relaxing dist
+class Solution2 {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
         int inf = 1e9;

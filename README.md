@@ -68,6 +68,7 @@
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0695-max-area-of-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/P-SUBHAM/LeetCode/tree/master/0721-accounts-merge) |
+| [0733-flood-fill](https://github.com/P-SUBHAM/LeetCode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/P-SUBHAM/LeetCode/tree/master/0735-asteroid-collision) |
 | [0794-swim-in-rising-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
@@ -79,6 +80,7 @@
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/P-SUBHAM/LeetCode/tree/master/0952-word-subsets) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/P-SUBHAM/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1002-maximum-width-ramp](https://github.com/P-SUBHAM/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1025-minimum-cost-for-tickets](https://github.com/P-SUBHAM/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
@@ -119,6 +121,7 @@
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/P-SUBHAM/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2262-solving-questions-with-brainpower](https://github.com/P-SUBHAM/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/P-SUBHAM/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2341-count-prefixes-of-a-given-string](https://github.com/P-SUBHAM/LeetCode/tree/master/2341-count-prefixes-of-a-given-string) |
@@ -130,6 +133,7 @@
 | [2533-bitwise-xor-of-all-pairings](https://github.com/P-SUBHAM/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2551-apply-operations-to-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/P-SUBHAM/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2665-minimum-time-to-repair-cars](https://github.com/P-SUBHAM/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/P-SUBHAM/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2685-first-completely-painted-row-or-column](https://github.com/P-SUBHAM/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
@@ -156,6 +160,7 @@
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/P-SUBHAM/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3643-zero-array-transformation-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3643-zero-array-transformation-ii) |
+| [3646-sum-of-good-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/3646-sum-of-good-subsequences) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/P-SUBHAM/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/P-SUBHAM/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/P-SUBHAM/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
@@ -198,6 +203,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/P-SUBHAM/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/P-SUBHAM/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2665-minimum-time-to-repair-cars](https://github.com/P-SUBHAM/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/P-SUBHAM/LeetCode/tree/master/2690-house-robber-iv) |
 | [3643-zero-array-transformation-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3643-zero-array-transformation-ii) |
@@ -254,6 +260,7 @@
 | [2262-solving-questions-with-brainpower](https://github.com/P-SUBHAM/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2562-count-ways-to-build-good-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3646-sum-of-good-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/3646-sum-of-good-subsequences) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/P-SUBHAM/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Sliding Window
 |  |
@@ -267,6 +274,7 @@
 | [1755-defuse-the-bomb](https://github.com/P-SUBHAM/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/P-SUBHAM/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/2478-longest-nice-subarray) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Hash Table
@@ -291,6 +299,7 @@
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0229-majority-element-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/P-SUBHAM/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -298,6 +307,7 @@
 | [0480-sliding-window-median](https://github.com/P-SUBHAM/LeetCode/tree/master/0480-sliding-window-median) |
 | [0496-next-greater-element-i](https://github.com/P-SUBHAM/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/P-SUBHAM/LeetCode/tree/master/0621-task-scheduler) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/P-SUBHAM/LeetCode/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/P-SUBHAM/LeetCode/tree/master/0768-partition-labels) |
 | [0808-number-of-matching-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/0808-number-of-matching-subsequences) |
@@ -320,6 +330,7 @@
 | [2434-design-a-number-container-system](https://github.com/P-SUBHAM/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/P-SUBHAM/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2685-first-completely-painted-row-or-column](https://github.com/P-SUBHAM/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/P-SUBHAM/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -330,6 +341,7 @@
 | [3548-find-the-count-of-good-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/P-SUBHAM/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3646-sum-of-good-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/3646-sum-of-good-subsequences) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/P-SUBHAM/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/P-SUBHAM/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Matrix
@@ -345,6 +357,7 @@
 | [0419-battleships-in-a-board](https://github.com/P-SUBHAM/LeetCode/tree/master/0419-battleships-in-a-board) |
 | [0542-01-matrix](https://github.com/P-SUBHAM/LeetCode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0695-max-area-of-island) |
+| [0733-flood-fill](https://github.com/P-SUBHAM/LeetCode/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
@@ -385,6 +398,7 @@
 | [0214-shortest-palindrome](https://github.com/P-SUBHAM/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/P-SUBHAM/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0227-basic-calculator-ii) |
+| [0242-valid-anagram](https://github.com/P-SUBHAM/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/P-SUBHAM/LeetCode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0412-fizz-buzz](https://github.com/P-SUBHAM/LeetCode/tree/master/0412-fizz-buzz) |
@@ -466,8 +480,10 @@
 | [0443-string-compression](https://github.com/P-SUBHAM/LeetCode/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/P-SUBHAM/LeetCode/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0908-middle-of-the-linked-list) |
+| [1002-maximum-width-ramp](https://github.com/P-SUBHAM/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/P-SUBHAM/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2551-apply-operations-to-an-array) |
@@ -484,6 +500,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -617,9 +634,11 @@
 | [0419-battleships-in-a-board](https://github.com/P-SUBHAM/LeetCode/tree/master/0419-battleships-in-a-board) |
 | [0472-concatenated-words](https://github.com/P-SUBHAM/LeetCode/tree/master/0472-concatenated-words) |
 | [0543-diameter-of-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0543-diameter-of-binary-tree) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/P-SUBHAM/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/P-SUBHAM/LeetCode/tree/master/0721-accounts-merge) |
+| [0733-flood-fill](https://github.com/P-SUBHAM/LeetCode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/P-SUBHAM/LeetCode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/P-SUBHAM/LeetCode/tree/master/0801-is-graph-bipartite) |
@@ -655,9 +674,11 @@
 | [0322-coin-change](https://github.com/P-SUBHAM/LeetCode/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/P-SUBHAM/LeetCode/tree/master/0542-01-matrix) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/P-SUBHAM/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/P-SUBHAM/LeetCode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/P-SUBHAM/LeetCode/tree/master/0721-accounts-merge) |
+| [0733-flood-fill](https://github.com/P-SUBHAM/LeetCode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/P-SUBHAM/LeetCode/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0794-swim-in-rising-water](https://github.com/P-SUBHAM/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -707,6 +728,7 @@
 | [0169-majority-element](https://github.com/P-SUBHAM/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/P-SUBHAM/LeetCode/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/P-SUBHAM/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/P-SUBHAM/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/P-SUBHAM/LeetCode/tree/master/0455-assign-cookies) |
@@ -744,6 +766,7 @@
 | [0735-asteroid-collision](https://github.com/P-SUBHAM/LeetCode/tree/master/0735-asteroid-collision) |
 | [0931-maximum-frequency-stack](https://github.com/P-SUBHAM/LeetCode/tree/master/0931-maximum-frequency-stack) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1002-maximum-width-ramp](https://github.com/P-SUBHAM/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -767,6 +790,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0543-diameter-of-binary-tree) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/P-SUBHAM/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -793,6 +817,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0543-diameter-of-binary-tree) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/P-SUBHAM/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
@@ -839,6 +864,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0148-sort-list) |
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Recursion
 |  |
 | ------- |
@@ -933,10 +959,12 @@
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/P-SUBHAM/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Segment Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/P-SUBHAM/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Graph
 |  |
 | ------- |
@@ -997,6 +1025,7 @@
 | [0085-maximal-rectangle](https://github.com/P-SUBHAM/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/P-SUBHAM/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [1002-maximum-width-ramp](https://github.com/P-SUBHAM/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [3001-apply-operations-to-maximize-score](https://github.com/P-SUBHAM/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Enumeration
@@ -1017,6 +1046,7 @@
 |  |
 | ------- |
 | [0931-maximum-frequency-stack](https://github.com/P-SUBHAM/LeetCode/tree/master/0931-maximum-frequency-stack) |
+| [2280-count-good-triplets-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/P-SUBHAM/LeetCode/tree/master/2434-design-a-number-container-system) |
 ## Binary Search Tree
 |  |
@@ -1024,6 +1054,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/P-SUBHAM/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0450-delete-node-in-a-bst) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/P-SUBHAM/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Data Stream

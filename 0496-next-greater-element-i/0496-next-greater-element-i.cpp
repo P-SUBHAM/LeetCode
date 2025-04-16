@@ -2,22 +2,16 @@ class Solutionp {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
         stack<int> st; // decrease mono stack
-        unordered_map<int,int> mp;
+        vector<int> ans(nums1.size(),-1);
         for(int i = 0; i < nums2.size(); i++) {
             if(st.empty()) {
                 st.push(i); continue;
             }
             while(!st.empty() && nums2[i] > nums2[st.top()]) {
                 int cur = st.top(); st.pop();
-                mp[nums2[cur]] = nums2[i];
+                ans[cur] = nums2[i];
             }
             st.push(i);
-        }
-        vector<int> ans(nums1.size(),-1);
-        for(int i = 0; i < nums1.size(); i++) {
-            if(mp.find(nums1[i]) != mp.end()) {
-                ans[i] = mp[nums1[i]];
-            }
         }
         return ans;
     }
