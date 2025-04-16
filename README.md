@@ -80,6 +80,7 @@
 | [0948-sort-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/P-SUBHAM/LeetCode/tree/master/0952-word-subsets) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/P-SUBHAM/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1002-maximum-width-ramp](https://github.com/P-SUBHAM/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1025-minimum-cost-for-tickets](https://github.com/P-SUBHAM/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/P-SUBHAM/LeetCode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
@@ -482,6 +483,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/P-SUBHAM/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/P-SUBHAM/LeetCode/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0908-middle-of-the-linked-list) |
+| [1002-maximum-width-ramp](https://github.com/P-SUBHAM/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/P-SUBHAM/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/P-SUBHAM/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2551-apply-operations-to-an-array) |
@@ -764,6 +766,7 @@
 | [0735-asteroid-collision](https://github.com/P-SUBHAM/LeetCode/tree/master/0735-asteroid-collision) |
 | [0931-maximum-frequency-stack](https://github.com/P-SUBHAM/LeetCode/tree/master/0931-maximum-frequency-stack) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1002-maximum-width-ramp](https://github.com/P-SUBHAM/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/P-SUBHAM/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -1022,6 +1025,7 @@
 | [0085-maximal-rectangle](https://github.com/P-SUBHAM/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/P-SUBHAM/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [1002-maximum-width-ramp](https://github.com/P-SUBHAM/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/P-SUBHAM/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [3001-apply-operations-to-maximize-score](https://github.com/P-SUBHAM/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Enumeration
