@@ -229,6 +229,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/P-SUBHAM/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0132-palindrome-partitioning-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/0152-maximum-product-subarray) |
@@ -399,6 +400,7 @@
 | [0076-minimum-window-substring](https://github.com/P-SUBHAM/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/P-SUBHAM/LeetCode/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/P-SUBHAM/LeetCode/tree/master/0127-word-ladder) |
+| [0132-palindrome-partitioning-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/P-SUBHAM/LeetCode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0151-reverse-words-in-a-string) |
