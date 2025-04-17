@@ -93,6 +93,7 @@
 | [1364-tuple-with-same-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/P-SUBHAM/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1435-xor-queries-of-a-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1477-product-of-the-last-k-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -255,6 +256,7 @@
 | [1063-best-sightseeing-pair](https://github.com/P-SUBHAM/LeetCode/tree/master/1063-best-sightseeing-pair) |
 | [1170-shortest-common-supersequence](https://github.com/P-SUBHAM/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/1250-longest-common-subsequence) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/P-SUBHAM/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/P-SUBHAM/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -368,6 +370,7 @@
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/P-SUBHAM/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1876-map-of-highest-peak](https://github.com/P-SUBHAM/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/P-SUBHAM/LeetCode/tree/master/2145-grid-game) |
