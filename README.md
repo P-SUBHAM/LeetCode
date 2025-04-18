@@ -395,6 +395,7 @@
 | [0020-valid-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/P-SUBHAM/LeetCode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0038-count-and-say](https://github.com/P-SUBHAM/LeetCode/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/P-SUBHAM/LeetCode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/P-SUBHAM/LeetCode/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/P-SUBHAM/LeetCode/tree/master/0072-edit-distance) |
