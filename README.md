@@ -109,6 +109,7 @@
 | [1755-defuse-the-bomb](https://github.com/P-SUBHAM/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/P-SUBHAM/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [1836-count-ways-to-make-array-with-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1836-count-ways-to-make-array-with-product) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/P-SUBHAM/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/P-SUBHAM/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -269,6 +270,7 @@
 | [1402-count-square-submatrices-with-all-ones](https://github.com/P-SUBHAM/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/P-SUBHAM/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
+| [1836-count-ways-to-make-array-with-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1836-count-ways-to-make-array-with-product) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/P-SUBHAM/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2176-parallel-courses-iii](https://github.com/P-SUBHAM/LeetCode/tree/master/2176-parallel-courses-iii) |
@@ -583,6 +585,7 @@
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1477-product-of-the-last-k-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1836-count-ways-to-make-array-with-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1836-count-ways-to-make-array-with-product) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/P-SUBHAM/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -1049,6 +1052,7 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/P-SUBHAM/LeetCode/tree/master/0062-unique-paths) |
+| [1836-count-ways-to-make-array-with-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1836-count-ways-to-make-array-with-product) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/P-SUBHAM/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3548-find-the-count-of-good-integers](https://github.com/P-SUBHAM/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 ## Monotonic Stack
@@ -1073,6 +1077,7 @@
 ## Number Theory
 |  |
 | ------- |
+| [1836-count-ways-to-make-array-with-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1836-count-ways-to-make-array-with-product) |
 | [2083-three-divisors](https://github.com/P-SUBHAM/LeetCode/tree/master/2083-three-divisors) |
 | [2610-closest-prime-numbers-in-range](https://github.com/P-SUBHAM/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [3001-apply-operations-to-maximize-score](https://github.com/P-SUBHAM/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
