@@ -11,7 +11,7 @@ public:
                 low++;high--;
             }
             int mid = (low+high)/2;
-            cout<<low<<" "<<mid<<" "<<high<<endl;
+            // cout<<low<<" "<<mid<<" "<<high<<endl;
             if(nums[mid] <= nums[high]) {
                 ans = min(ans,nums[mid]);
                 high = mid-1;
