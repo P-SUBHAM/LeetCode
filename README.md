@@ -141,6 +141,7 @@
 | [2551-apply-operations-to-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/P-SUBHAM/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2656-count-the-number-of-beautiful-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2656-count-the-number-of-beautiful-subarrays) |
 | [2665-minimum-time-to-repair-cars](https://github.com/P-SUBHAM/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/P-SUBHAM/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2685-first-completely-painted-row-or-column](https://github.com/P-SUBHAM/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
@@ -347,6 +348,7 @@
 | [2448-count-number-of-bad-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/P-SUBHAM/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2656-count-the-number-of-beautiful-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2656-count-the-number-of-beautiful-subarrays) |
 | [2685-first-completely-painted-row-or-column](https://github.com/P-SUBHAM/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/P-SUBHAM/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -882,6 +884,7 @@
 | [2478-longest-nice-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/2478-longest-nice-subarray) |
 | [2509-minimize-xor](https://github.com/P-SUBHAM/LeetCode/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/P-SUBHAM/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2656-count-the-number-of-beautiful-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2656-count-the-number-of-beautiful-subarrays) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/P-SUBHAM/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -937,6 +940,7 @@
 | [2249-count-the-hidden-sequences](https://github.com/P-SUBHAM/LeetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/P-SUBHAM/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/2465-shifting-letters-ii) |
+| [2656-count-the-number-of-beautiful-subarrays](https://github.com/P-SUBHAM/LeetCode/tree/master/2656-count-the-number-of-beautiful-subarrays) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/P-SUBHAM/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3643-zero-array-transformation-ii) |
