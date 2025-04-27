@@ -4,7 +4,7 @@ struct BinaryLifting {
     void dfsBinaryLifting(int node, int par, vector<vector<int>> &tree) { // tree is directed graph
         up[node][0] = par;
         for (int i = 1; i <= lev && up[node][i-1]!=-1; i++)
-            up[node][i] = up[up[node][i-1]][i-1]; // 2^l = 2^l-1 * 2^l-1
+            up[node][i] = up[up[node][i-1]][i-1]; // 2^l = 2^l-1 + 2^l-1 (2^l-1 * 2)
         for (auto child : tree[node])
             dfsBinaryLifting(child, node, tree);
     }
