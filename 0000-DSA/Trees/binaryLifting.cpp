@@ -13,7 +13,7 @@ struct BinaryLifting {
         up.resize(n+1,vector<int>(lev+1,-1));
         dfsBinaryLifting(1,-1,tree);
     }
-    int findKParent(int node, int k) {
+    int findKParent(int node, int k) { // k is jumps required the set bit represent lev incr
         if(k == 0 || node == -1) return node;
         for(int i = lev; i >= 0; i--) {
             if((k>>i)&1) {
