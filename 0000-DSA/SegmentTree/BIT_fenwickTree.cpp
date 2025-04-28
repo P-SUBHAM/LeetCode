@@ -1,7 +1,7 @@
 // fenwick tree short
 struct BIT {
     vector<long long> fenw; int n;
-    BIT(int n_):n(n_) {fenw.resize(n+1,0);} // 0,1-n
+    BIT(int n_):n(n_) {fenw.resize(n+3,0);} // 0,1-n // 1 based index 1..n
     long long query(int i) {
         long long sum = 0;
         for(; i > 0; i -= i&-i)
