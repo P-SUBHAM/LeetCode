@@ -32,7 +32,7 @@ int main()
     SegmentTree segtree(n);
     for(int i = 0; i < n; i++) {
         int x; cin>>x;
-        segtree.pointUpdate(1,0,n-1,i,x);
+        segtree.pointUpdate(1,0,n-1,i,x); // segtree 1 based <-(1),(0,n-1)->arr 0 based
     }
     for(int i = 0; i < q; i++) {
         int a,b,c; cin>>a>>b>>c;
