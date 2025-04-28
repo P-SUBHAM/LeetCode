@@ -65,9 +65,9 @@ class Solution {
           int l = 0, r = 0;
           for(int i = 1; i < n; i++) {
               if(i < r) {
-                  z[i] = min(z[i-l],r-i); // r-i is max len poss till end
+                  z[i] = min(z[0+i-l],r-i); // r-i is max len poss till end
               }
-              while(i+z[i] < n && s[z[i]] == s[i+z[i]]) {
+              while(i+z[i] < n && s[0+z[i]] == s[i+z[i]]) {
                   z[i]++;
               }
               if(i+z[i] > r) {
