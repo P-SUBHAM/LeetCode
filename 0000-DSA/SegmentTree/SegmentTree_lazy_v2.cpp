@@ -40,7 +40,6 @@ struct SegmentTree {
         if(l <= st && en <= r) return tree[node];
         int mid = (st+en)/2;
         long long q1 = query(2*node,st,mid,l,r), q2 = query(2*node+1,mid+1,en,l,r);
-        tree[node] = tree[2*node] + tree[2*node+1];
         return q1+q2;
     }
     // void pointUpdate(int node, int st, int en, int ind, int val) {
