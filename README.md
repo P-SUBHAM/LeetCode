@@ -100,6 +100,7 @@
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/P-SUBHAM/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/P-SUBHAM/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1435-xor-queries-of-a-subarray](https://github.com/P-SUBHAM/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1477-product-of-the-last-k-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -608,6 +609,7 @@
 | [0412-fizz-buzz](https://github.com/P-SUBHAM/LeetCode/tree/master/0412-fizz-buzz) |
 | [0650-2-keys-keyboard](https://github.com/P-SUBHAM/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0797-rabbits-in-forest](https://github.com/P-SUBHAM/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/P-SUBHAM/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/P-SUBHAM/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1477-product-of-the-last-k-numbers](https://github.com/P-SUBHAM/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1500-count-largest-group](https://github.com/P-SUBHAM/LeetCode/tree/master/1500-count-largest-group) |
