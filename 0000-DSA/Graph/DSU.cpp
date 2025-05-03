@@ -6,7 +6,7 @@ struct DSU { // union by size
         if (p.find(x) == p.end()) {s[x]=1; return p[x] = x;} // Lazy initialization
         return (p[x] == x) ? x : p[x] = find_set(p[x]); // Path compression
     }
-    void join_set(ll x, ll y) {
+    void union_set(ll x, ll y) {
         x = find_set(x), y = find_set(y);
         if(x == y) return;
         if(s[x] < s[y]) swap(x,y);
