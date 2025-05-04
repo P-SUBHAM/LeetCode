@@ -96,6 +96,7 @@
 | [1121-partition-array-for-maximum-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1184-car-pooling](https://github.com/P-SUBHAM/LeetCode/tree/master/1184-car-pooling) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/P-SUBHAM/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
@@ -367,6 +368,7 @@
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/P-SUBHAM/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1160-letter-tile-possibilities](https://github.com/P-SUBHAM/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/P-SUBHAM/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/P-SUBHAM/LeetCode/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -965,6 +967,7 @@
 | [0621-task-scheduler](https://github.com/P-SUBHAM/LeetCode/tree/master/0621-task-scheduler) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/P-SUBHAM/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1160-letter-tile-possibilities](https://github.com/P-SUBHAM/LeetCode/tree/master/1160-letter-tile-possibilities) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/P-SUBHAM/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/P-SUBHAM/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/P-SUBHAM/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/P-SUBHAM/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
