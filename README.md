@@ -357,6 +357,7 @@
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/P-SUBHAM/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/P-SUBHAM/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0454-4sum-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/0454-4sum-ii) |
+| [0460-lfu-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0460-lfu-cache) |
 | [0480-sliding-window-median](https://github.com/P-SUBHAM/LeetCode/tree/master/0480-sliding-window-median) |
 | [0496-next-greater-element-i](https://github.com/P-SUBHAM/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/P-SUBHAM/LeetCode/tree/master/0621-task-scheduler) |
@@ -674,6 +675,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/P-SUBHAM/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0328-odd-even-linked-list) |
+| [0460-lfu-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0460-lfu-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/P-SUBHAM/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 ## Design
 |  |
@@ -684,6 +686,7 @@
 | [0295-find-median-from-data-stream](https://github.com/P-SUBHAM/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0307-range-sum-query-mutable](https://github.com/P-SUBHAM/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [0460-lfu-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0460-lfu-cache) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/P-SUBHAM/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0931-maximum-frequency-stack](https://github.com/P-SUBHAM/LeetCode/tree/master/0931-maximum-frequency-stack) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/P-SUBHAM/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -693,6 +696,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/P-SUBHAM/LeetCode/tree/master/0460-lfu-cache) |
 ## Depth-First Search
 |  |
 | ------- |
