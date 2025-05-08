@@ -184,6 +184,7 @@
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/P-SUBHAM/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3646-sum-of-good-subsequences](https://github.com/P-SUBHAM/LeetCode/tree/master/3646-sum-of-good-subsequences) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/P-SUBHAM/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -433,6 +434,7 @@
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/P-SUBHAM/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## String
 |  |
 | ------- |
@@ -593,6 +595,7 @@
 | [2692-take-gifts-from-the-richest-pile](https://github.com/P-SUBHAM/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -1084,6 +1087,7 @@
 | [2793-count-the-number-of-complete-components](https://github.com/P-SUBHAM/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Topological Sort
 |  |
@@ -1108,6 +1112,7 @@
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/P-SUBHAM/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/P-SUBHAM/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/P-SUBHAM/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/P-SUBHAM/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/P-SUBHAM/LeetCode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Combinatorics
 |  |
