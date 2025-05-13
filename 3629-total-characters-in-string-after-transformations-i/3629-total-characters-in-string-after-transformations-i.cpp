@@ -4,10 +4,13 @@
 class Solution {
 public:
     static const long long mod = 1e9+7;
-    int lengthAfterTransformations(string s, int t) {
-        int n = s.size(); 
-        vector<vector<int>> dp(26,vector<int>(t+1,1));
-        for(int j = 1; j <= t; j++) {
+    static int dp[26][100001];
+    static bool precompf;
+    void precompute() {
+        precompf = false;
+        for (int i = 0; i < 26; i++)
+            dp[i][0] = 1;
+        for(int j = 1; j <= 100000; j++) {
             for(int i = 0; i < 26; i++) {
                 char ch = 'a' + i;
                 if(ch != 'z') {
@@ -18,6 +21,12 @@ public:
                 }
             } 
         }
+    }
+    int lengthAfterTransformations(string s, int t) {
+        int n = s.size(); 
+        if(precompf) {
+            precompute();
+        }
         long long ans = 0;
         for(int i = 0; i < n; i++) {
             ans = (ans + dp[s[i]-'a'][t])%mod;
@@ -25,3 +34,6 @@ public:
         return ans;
     }
 };
+
+int Solution::dp[26][100001];
+bool Solution::precompf = true;
