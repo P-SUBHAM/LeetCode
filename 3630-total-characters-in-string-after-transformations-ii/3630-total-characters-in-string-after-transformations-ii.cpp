@@ -41,7 +41,7 @@ public:
         if(t == 1) {
             return A;
         }
-        vector<vector<int>> X = matExpR(A,t/2);
+        vector<vector<int>> X = matExp(A,t/2);
         X = matMul(X,X);
         if(t%2 == 1) {
             X = matMul(X,A);
