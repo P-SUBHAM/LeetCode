@@ -1,5 +1,27 @@
-// Dynamic Programming iterative
+// Approach 3: count states
+// ABA
+// C C
+// ABA
+//  D
 class Solution {
+public:
+    static const int mod = 1e9+7;
+    int knightDialer(int n) {
+        if(n == 1) return 10;
+        int A = 4, B = 2, C = 2, D = 1;
+        while(--n) {
+            int _A = (1ll * 2 * (B + C)) % mod;
+            int _B = A;
+            int _C = (1ll * A + 2 * D) % mod;
+            int _D = C;
+            A = _A, B = _B, C = _C, D = _D;
+        }
+        return (1ll*A + B + C + D) % mod;
+    }
+};
+
+// Dynamic Programming iterative
+class Solution2 {
 public:
     static const int mod = 1e9+7;
     bool isValid(int i, int j) {
@@ -45,8 +67,8 @@ public:
         return ans;
     }
 };
-int Solution::dp[4][3][5001];
-bool Solution::precompf = true;
+int Solution2::dp[4][3][5001];
+bool Solution2::precompf = true;
 
 // Approach 1: Dynamic Programming
 class Solution1 {
