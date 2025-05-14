@@ -293,6 +293,7 @@
 | [0868-push-dominoes](https://github.com/P-SUBHAM/LeetCode/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/P-SUBHAM/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/P-SUBHAM/LeetCode/tree/master/0967-minimum-falling-path-sum) |
+| [0972-knight-dialer](https://github.com/P-SUBHAM/LeetCode/tree/master/0972-knight-dialer) |
 | [1008-binary-tree-cameras](https://github.com/P-SUBHAM/LeetCode/tree/master/1008-binary-tree-cameras) |
 | [1025-minimum-cost-for-tickets](https://github.com/P-SUBHAM/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/P-SUBHAM/LeetCode/tree/master/1063-best-sightseeing-pair) |
